@@ -1,0 +1,78 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "colors";
+
+html, html a {
+	-webkit-font-smoothing: antialiased !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);	
+	-webkit-text-stroke: 1px transparent;
+	font-smooth: always;
+}
+
+body {
+	background-color: rgb(245, 245, 244);	
+}
+
+.main-container {
+	margin: 0 auto;
+	max-width: 1200px;
+	min-height: 800px;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.hero {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+	.wrapper {
+		position: relative;
+		width: 100%;
+		height: 572px;
+		background-color: $background-trans-color;
+		
+		.hero-image, .overlay {
+			position: absolute;
+			width: 100%;
+			height: 572px;
+			top: 0px;
+			left: 0;
+			z-index: 10;
+		}
+		
+		.hero-image {
+			background-image: url('/public/images/sanguine_way-hero.jpg');
+			background-size: cover;	
+			z-index: 5;
+		}
+		
+		.overlay {
+			background-color: $background-trans-color;	
+			
+		}
+		
+		.hero-text{
+			position: absolute;
+			width: 600px;
+			bottom: 20%;
+			left: calc(50% - 300px);
+			z-index: 15;
+			
+			.title, .subtitle {
+				text-align: center;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+.content {
+	margin-top: 650px;
+	margin-bottom: 60px;
+	min-height: 600px;	
+}
