@@ -14,6 +14,11 @@ html, html a {
 }
 
 body {
+	
+}
+
+.main-wrapper {
+	z-index: 20;	
 	background-color: rgb(245, 245, 244);	
 }
 
@@ -22,13 +27,20 @@ body {
 	max-width: 1200px;
 	min-height: 800px;
 	background-color: rgba(255, 255, 255, .8);
+	z-index: 20;
+}
+
+.empty-hero {
+	height: 572px;
+	width: 100%;
 }
 
 .hero {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
+	z-index: -1;
 	
 	.wrapper {
 		position: relative;
