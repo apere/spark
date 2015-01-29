@@ -1,0 +1,6 @@
+$( document ).ready(function() {
+    $('#white-white-red-hero, #white-white-red .project-info').on('click', function() {
+		window.location.href = 'http://adampere.com/spark/portfolio/white-white-red/';
+	});
+});
+

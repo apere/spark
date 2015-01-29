@@ -1,7 +1,16 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18270",
+"creatorBuild": "18493",
 "files": {
+	"\/about\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -16,6 +25,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/white-white-red\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/white-white-red\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -47,93 +65,269 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/images\/home_groan_blasto.jpg": {
+	"\/public\/images\/as_i_am_changing\/04caged.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.14939e+06,
-		"inputAbbreviatedPath": "\/public\/images\/home_groan_blasto.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/home_groan_blasto.jpg",
+		"initialSize": 1.091e+06,
+		"inputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/04caged.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/04caged.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/sanguine-1.JPG": {
-		"fileType": 16384,
+	"\/public\/images\/as_i_am_changing\/vidoe.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6.24726e+06,
-		"inputAbbreviatedPath": "\/public\/images\/sanguine-1.JPG",
-		"outputAbbreviatedPath": "\/public\/images\/sanguine-1.JPG",
+		"initialSize": 955860,
+		"inputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/vidoe.png",
+		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/vidoe.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/sanguine-2.JPG": {
-		"fileType": 16384,
+	"\/public\/images\/bg1.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7.39223e+06,
-		"inputAbbreviatedPath": "\/public\/images\/sanguine-2.JPG",
-		"outputAbbreviatedPath": "\/public\/images\/sanguine-2.JPG",
+		"initialSize": 603759,
+		"inputAbbreviatedPath": "\/public\/images\/bg1.png",
+		"outputAbbreviatedPath": "\/public\/images\/bg1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/sanguine-3.JPG": {
-		"fileType": 16384,
+	"\/public\/images\/bg2.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6.96863e+06,
-		"inputAbbreviatedPath": "\/public\/images\/sanguine-3.JPG",
-		"outputAbbreviatedPath": "\/public\/images\/sanguine-3.JPG",
+		"initialSize": 1.22486e+06,
+		"inputAbbreviatedPath": "\/public\/images\/bg2.png",
+		"outputAbbreviatedPath": "\/public\/images\/bg2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/sanguine-4.JPG": {
-		"fileType": 16384,
+	"\/public\/images\/bg3.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5.97881e+06,
-		"inputAbbreviatedPath": "\/public\/images\/sanguine-4.JPG",
-		"outputAbbreviatedPath": "\/public\/images\/sanguine-4.JPG",
+		"initialSize": 82024,
+		"inputAbbreviatedPath": "\/public\/images\/bg3.png",
+		"outputAbbreviatedPath": "\/public\/images\/bg3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/sanguine-side.JPG": {
-		"fileType": 16384,
+	"\/public\/images\/bg3a.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5.70611e+06,
-		"inputAbbreviatedPath": "\/public\/images\/sanguine-side.JPG",
-		"outputAbbreviatedPath": "\/public\/images\/sanguine-side.JPG",
+		"initialSize": 71277,
+		"inputAbbreviatedPath": "\/public\/images\/bg3a.png",
+		"outputAbbreviatedPath": "\/public\/images\/bg3a.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/sanguine_way-full.jpg": {
-		"fileType": 16384,
+	"\/public\/images\/bg3ab.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.00353e+06,
-		"inputAbbreviatedPath": "\/public\/images\/sanguine_way-full.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/sanguine_way-full.jpg",
+		"initialSize": 71288,
+		"inputAbbreviatedPath": "\/public\/images\/bg3ab.png",
+		"outputAbbreviatedPath": "\/public\/images\/bg3ab.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/sanguine_way-hero.jpg": {
+	"\/public\/images\/logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 474661,
-		"inputAbbreviatedPath": "\/public\/images\/sanguine_way-hero.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/sanguine_way-hero.jpg",
+		"initialSize": 16209,
+		"inputAbbreviatedPath": "\/public\/images\/logo.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/public\/images\/sanguine_hero.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.74065e+06,
+		"inputAbbreviatedPath": "\/public\/images\/sanguine_hero.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/sanguine_hero.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/fortunate\/07_fortunate_dyptich-lo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 442517,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/fortunate\/07_fortunate_dyptich-lo.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/fortunate\/07_fortunate_dyptich-lo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_1sanguine_1.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.19853e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_1sanguine_1.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_1sanguine_1.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_2sanguine_st2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.12887e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_2sanguine_st2.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_2sanguine_st2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_3sanguine_st3.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.74034e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_3sanguine_st3.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_3sanguine_st3.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_4sanguine_st4.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.3606e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_4sanguine_st4.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_4sanguine_st4.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_5sanguine_st8.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.38628e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_5sanguine_st8.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_5sanguine_st8.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_6sanguine_st9.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.30942e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_6sanguine_st9.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_6sanguine_st9.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_7sanguine_st10.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.45691e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_7sanguine_st10.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_7sanguine_st10.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_8sanguine_st14.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.68205e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_8sanguine_st14.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_8sanguine_st14.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/sanguine_way\/01_sanguine_0.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.74065e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_sanguine_0.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_sanguine_0.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/she_said_no\/06_she_said_no-lo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 347026,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/she_said_no\/06_she_said_no-lo.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/she_said_no\/06_she_said_no-lo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/uterus_necklace\/02_0uterus_necklace_plain.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 534733,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/uterus_necklace\/02_0uterus_necklace_plain.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/uterus_necklace\/02_0uterus_necklace_plain.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/white_white_red\/uterus_necklace\/02_1_uterus_necklace_wearing.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.88477e+06,
+		"inputAbbreviatedPath": "\/public\/images\/white_white_red\/uterus_necklace\/02_1_uterus_necklace_wearing.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/uterus_necklace\/02_1_uterus_necklace_wearing.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/js\/all.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/all.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/all-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/min\/all-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/min\/all-min.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/min\/all-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/public\/vendor\/handlebars.js": {
 		"fileType": 64,
@@ -152,6 +346,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/vendor\/jquery.js",
 		"outputAbbreviatedPath": "\/public\/vendor\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/vendor\/jquery.lazyload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/vendor\/jquery.lazyload.js",
+		"outputAbbreviatedPath": "\/public\/vendor\/min\/jquery.lazyload-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -256,6 +461,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"indentation": {
 			"active": 1,
 			"flagValue": 2
@@ -347,6 +556,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -403,6 +616,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -425,6 +642,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -479,6 +700,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -522,6 +747,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -588,6 +817,10 @@
 			"flagValue": -1
 			},
 		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -815,6 +1048,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -839,8 +1073,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -877,6 +1112,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -920,6 +1159,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -932,8 +1175,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

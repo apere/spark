@@ -55,56 +55,176 @@ html, html a {
   -webkit-text-stroke: 1px transparent;
   font-smooth: always; }
 
+a {
+  transition: all 250ms ease-in-out; }
+
 .main-wrapper {
   z-index: 20;
-  background-color: #f5f5f4; }
+  background: url("http://adampere.com/spark/public/images/bg3ab.png");
+  background-repeat: repeat;
+  padding: 60px 0px;
+  margin-top: 800px;
+  position: relative; }
 
 .main-container {
   margin: 0 auto;
   max-width: 1200px;
-  min-height: 800px;
+  min-height: 750px;
   background-color: rgba(255, 255, 255, 0.8);
-  z-index: 20; }
+  z-index: 20;
+  width: calc(100% - 200px);
+  color: #4b4b4b; }
 
-.empty-hero {
-  height: 572px;
-  width: 100%; }
+.blog-link {
+  position: fixed;
+  left: 20px;
+  bottom: 50%;
+  transform: rotate(270deg);
+  z-index: 30;
+  transition: all 250ms ease-in-out; }
+  .blog-link:hover {
+    transform: scale(1.2, 1.2); }
+  .blog-link a {
+    z-index: 30;
+    color: rgba(75, 75, 75, 0.7);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px; }
+
+.logo-nav {
+  position: fixed;
+  left: 0;
+  top: 60px; }
+  .logo-nav .logo {
+    text-decoration: underline;
+    font-size: 26px;
+    text-transform: capitalize; }
+  .logo-nav a {
+    color: rgba(75, 75, 75, 0.7);
+    padding: 5px 10px;
+    padding-right: 10px;
+    display: table;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    width: auto; }
 
 .hero {
   width: 100%;
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: -1; }
+  z-index: -1;
+  cursor: pointer; }
   .hero .wrapper {
     position: relative;
     width: 100%;
-    height: 572px;
+    height: 750px;
     background-color: rgba(36, 36, 36, 0.4); }
+    .hero .wrapper:hover .hero-text {
+      transform: scale(1.04, 1.04);
+      color: white; }
+    .hero .wrapper:hover .overlay {
+      background-color: rgba(36, 36, 36, 0.6); }
     .hero .wrapper .hero-image, .hero .wrapper .overlay {
       position: absolute;
       width: 100%;
-      height: 572px;
+      height: 750px;
       top: 0px;
       left: 0;
       z-index: 10; }
     .hero .wrapper .hero-image {
-      background-image: url("/public/images/sanguine_way-hero.jpg");
+      background: url("http://adampere.com/spark/public/images/sanguine_hero.JPG");
       background-size: cover;
-      z-index: 5; }
+      background-position: center;
+      z-index: 5;
+      transition: all 250ms ease-in-out; }
     .hero .wrapper .overlay {
+      transition: all 250ms ease-in-out;
       background-color: rgba(36, 36, 36, 0.4); }
     .hero .wrapper .hero-text {
       position: absolute;
-      width: 600px;
-      bottom: 20%;
-      left: calc(50% - 300px);
-      z-index: 15; }
+      width: 100%;
+      min-width: 600px;
+      bottom: 15%;
+      left: 0;
+      z-index: 15;
+      transition: all 250ms ease-in-out;
+      color: #f4f1f1; }
       .hero .wrapper .hero-text .title, .hero .wrapper .hero-text .subtitle {
         text-align: center;
-        margin: 0 auto; }
+        margin: 0 auto;
+        transition: all 250ms ease-in-out; }
+      .hero .wrapper .hero-text .subtitle {
+        margin-top: 10px; }
 
 .content {
-  margin-top: 650px;
-  margin-bottom: 60px;
-  min-height: 600px; }
+  min-height: 300px;
+  padding: 30px; }
+
+.project .project-info {
+  margin-bottom: 40px;
+  cursor: pointer; }
+  .project .project-info:hover .title {
+    color: #262626; }
+  .project .project-info.margin-top {
+    margin-top: 40px; }
+  .project .project-info .title {
+    transition: all 250ms ease-in-out; }
+.project .row {
+  width: auto;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+  .project .row.center {
+    text-align: center; }
+  .project .row.no-bottom {
+    margin-bottom: 0px; }
+  .project .row .one {
+    width: 100%; }
+    .project .row .one.medium {
+      width: 70%; }
+  .project .row .four {
+    width: 20%;
+    height: auto;
+    padding: 0 2%; }
+.project .statement {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+  .project .statement p {
+    margin-bottom: 10px; }
+.project .title.small {
+  margin-bottom: 20px; }
+.project .project-item {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block; }
+  .project .project-item.one {
+    width: 80%; }
+    .project .project-item.one img, .project .project-item.one div {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; }
+    .project .project-item.one div {
+      text-align: right; }
+  .project .project-item.two {
+    width: 40%; }
+    .project .project-item.two:first-of-type {
+      margin-right: 5%; }
+    .project .project-item.two img, .project .project-item.two div {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; }
+    .project .project-item.two div {
+      text-align: right; }
+  .project .project-item.three {
+    width: 29%; }
+    .project .project-item.three img, .project .project-item.three div {
+      width: 100%;
+      height: auto;
+      margin: 0 auto; }
+    .project .project-item.three div {
+      text-align: right; }
+  .project .project-item .item-title {
+    font-style: italic; }

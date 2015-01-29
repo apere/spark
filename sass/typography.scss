@@ -24,40 +24,89 @@
 }
 
 
-// Different Fonts 
-.kotta {
-	font-family: 'Kotta One', serif;
-}
 
 .mate {
 	font-family: 'Mate', serif;
 }
 
-.laila {
-	font-family: 'Laila', serif;
+.source-sans {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-
-.ruda {
-	font-family: 'Ruda', sans-serif;
+body {
+	@extend .source-sans;
+	font-size: 16px;
+	line-height: 20px;
 }
-
-html, html a {
-	font-family: sans-serif;
-	color: $text-header-color;	
-}
-
-.title, .subtitle {
-	@extend .header-text;	
-}
-
 
 
 .title {
 	@extend .mate;
 	font-weight: 100;
 	font-size: 52px;	
+	line-height: 58px;
+	
+	&.small {
+		font-size: 26px;
+		line-height: 28px;
+		margin-left: 5%;
+		margin-top: 20px;
+		max-width: 70%;
+	}
 }
+
 .subtitle {
-	font-size: 32px;	
+	@extend .mate;
+	font-size: 26px;	
+}
+
+.project {
+	.project-info {
+		.title, .medium, .year {
+			@extend .mate;
+			color: $text-secondary-color;	
+		}
+		
+		.medium, .year {
+			font-size: 26px;	
+			line-height: 28px;
+		}
+	}
+}
+
+.statement {
+	@extend .mate;	
+	
+	.label {	
+	}
+	
+	p {
+		@extend .source-sans;	
+	}
+}
+
+.quote {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-style: italic;
+	text-align: left;
+	font-size: 22px;
+	line-height: 27px;
+	p {
+		margin-bottom: 20px;	
+	}
+	
+	.author {
+		margin-top: 15px;
+		font-size: 16px;
+		line-height: 22px;
+		.name {
+			
+			font-style: normal;
+			font-weight: 700;
+
+		}
+	}
 }
