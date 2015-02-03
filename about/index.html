@@ -2,75 +2,154 @@
 <html>
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic|Mate:400,400italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="http://adampere.com/spark/public/css/colors.css">
-		<link rel="stylesheet" type="text/css" href="http://adampere.com/spark/public/css/structure.css">
-		<link rel="stylesheet" type="text/css" href="http://adampere.com/spark/public/css/typography.css">
-		<script src="http://adampere.com/spark/public/vendor/jquery.js"></script>
-		<script src="http://adampere.com/spark/public/vendor/jquery.lazyload.js"></script>
-		<script src="http://adampere.com/spark/public/vendor/handlebars.js"></script>
-		<script src="http://adampere.com/spark/public/js/all.js"></script>
+		<link rel="stylesheet" type="text/css" href="/public/css/colors.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/structure.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/typography.css">
+		<script src="/public/vendor/jquery.js"></script>
+		<script src="/public/vendor/jquery.lazyload.js"></script>
+		<script src="/public/vendor/handlebars.js"></script>
+		<script src="/public/js/all.js"></script>
 		<title>SheriPark.com - About</title>
 	</head>
 	<body>
-		<div class = "hero">
+		<div class = "hero" id = "about-hero">
 				<div class = "wrapper">
 					<div class = "hero-image"></div>
 					<div class = "hero-text">
 						<div class = "title">Sheri Park</div>
-						<div class = "subtitle">Artist, Designer</div>
+						<div class = "subtitle">Artist from the Bay Area, California</div>
 					</div>
 					<div class = "overlay"></div>
 				</div>
 		</div>
 		<div class = "main-wrapper">
 			<div class = "logo-nav">
-				<a class = "logo" href = "http://adampere.com/spark">Sheri Park</a>
-				<a class = "about-link" href = "http://adampere.com/spark/about/">About</a>
+				<a class = "logo" href = "http://adampere.com/spark"><img src = "/public/images/gen/logo.png"></a>
+				<a class = "about-link" href = "/about/">About</a>
+				<a class = "blog" href = "blog/">Blog</a>
 			</div>
-			<div class = "blog-link">
-				<a href = "blog/">Blog</a>
-			</div>
-			<div class = "main-container">
+			<div class = "main-container" id = "about">
 				<div class = "content">
 					<div class = "project-info">
 							<div class = "title">Sheri Park</div>
+							<div class = "links">
+								<a href = "mailto:info@sheripark.com">info [at] sheripark.com</a>
+								<br>Sign up for <a href = "mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your slow mail. My name is   _________ My address is ___________.">[ Slow Mail ]</a> or  <a href = "mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your fast mail. My name is   _________. My email address is ___________.">[ Fast Mail ]</a>.
+							</div>
 					</div>
-					<div class = "statement">
-						<div class = "label">Artist's Statement</div>
-					<p>Discontinuity marks the female experience. Physical disruptions and changes, such as menstruation and childbearing, have social, emotional,  and psychological weight. Through video, photography, and collage construction through found material, this body of interdisciplinary work explores female physical changes and how these experiences, and recovery from them, shape inner life and self perception. Many of these dramatic physical changes are preparation for new life. Yet, death, pain, and loss are intrinsically tied into their cycles. In this way, it is apt to draw on Western Christian compositions: as with Sanguine (Stations), presenting the menstrual cycle as the stations of the cross, illuminates each journey toward death to life, and helps uncover the spiritual dimension of physical experience. The body is both displayed and transformed through pieces such as blast-o!, a hat/mask made from a baby shower’s leftover wrapping paper and balloons, which use abstracted, repetitive forms to depict inner and outer changes in the female body--in this case, a blastocyst as well as ballooning breasts. A provocative and playful meditation that bridges inner and outer transformation, WHITE WHITE RED: living woman closely observes both inward and outward to describe an archetypal spiritual struggle as incarnated in the female experience.</p>
+					
+					<p class = "statement">This isn't real text. Discontinuity marks the female experience. Physical disruptions and changes, such as menstruation and childbearing, have social, emotional,  and psychological weight. Through video, photography, and collage construction through found material, this body of interdisciplinary work explores female physical changes and how these experiences, and recovery from them, shape inner life and self perception. Many of these dramatic physical changes are preparation for new life. Yet, death, pain, and loss are intrinsically tied into their cycles. In this way, it is apt to draw on Western Christian compositions: as with Sanguine (Stations), presenting the menstrual cycle as the stations of the cross, illuminates each journey toward death to life, and helps uncover the spiritual dimension of physical experience. The body is both displayed and transformed through pieces such as blast-o!, a hat/mask made from a baby shower’s leftover wrapping paper and balloons, which use abstracted, repetitive forms to depict inner and outer changes in the female body--in this case, a blastocyst as well as ballooning breasts. A provocative and playful meditation that bridges inner and outer transformation, WHITE WHITE RED: living woman closely observes both inward and outward to describe an archetypal spiritual struggle as incarnated in the female experience.</p>
+					<div class = "current-exhibit">
+						<div class = "label">
+							CURRENT EXHIBITION 
+						</div>
+						<ul>
+							<li class = "ex-title">video, photography, found object collage construction</li>
+							<li>Gallery Route One</li>
+							<li>Pointe Reyes Station, 11101 Highway One</li>
+							<li><span class = "small">Opening:</span> <em>Feb 8th</em>, 3&ndash;5pm; <span class = "small">Closing Salon:</span> <em>Mar 15th</em>, 4&ndash;5pm;</li>
+							<li><span class = "small">Viewing: </span>Wednesday's &mdash; Tuesday's, 11&ndash;5pm</li>
+						</ul>
+						<a href = "https://www.facebook.com/events/1494535530771331/"><img class = "icon" src = "/public/images/icon/fb.png"></a>
 					</div>
-					<div class = "title small">CV/Resume</div>
 					<div class = "cv">
-					<div class = "label">EXHIBITIONS</div>
+						<div class = "label">EDUCATION</div>
+						<ul>
+							<li>2014 Certificate in Theology and the Arts (candidate), Fuller Seminary, Menlo Park, CA</li>
+							<li>2013 BA summa cum laude, Fine Arts, Union College, Schenectady, NY</li>
+							<li>2009 Oxbow School of the Arts, Napa, CA</li>
+						</ul>
+						<div class = "label">EXHIBITIONS</div>
+						<ul>
+							<li>2015 WHITE WHITE RED: living woman, Gallery Route One, Point Reyes, CA</li>
+							<li>2014 16th Annual Postcards From the Edge, Visual AIDS, Luhring Augustine, New York, NY</li>
+							<li>2014 Fractured Yet Rising, ARC Gallery, Chicago, IL</li>
+							<li>2014 College Collective, Genesee Pottery & Firehouse Gallery, Rochester, NY</li>
+							<li>2014 Small Works Auction, International Arts Movement with Ruby Garden Dreams, New York, NY.</li>
+							<li>2013 As I Am, Changing (solo), Burns Atrium Gallery, Union College, Schenectady, NY</li>
+							<li>2013 Student Invitational, Mandeville Gallery, Union College, Schenectady, NY</li>
+							<li>2012 Catalogue Card Art Competition, Library, Union College, Schenectady, NY</li>
+							<li>2011 Genesis & Dreamtime (solo), Wikoff Student Gallery, Union College, Schenectady, NY</li>
+							<li>2010-11, 2013 Visual Arts Steinmetz Exhibition, Burns Atrium Gallery, Union College, Schenectady, NY</li>
+						</ul>
 
-2015    WHITE WHITE RED: living woman, Gallery Route One, Point Reyes, CA
-2014    16th Annual Postcards From the Edge, Visual AIDS, Luhring Augustine, New York, NY
-2014    Fractured Yet Rising, ARC Gallery, Chicago, IL
-2014    College Collective, Genesee Pottery & Firehouse Gallery, Rochester, NY
-2014    Small Works Auction, International Arts Movement with Ruby Garden Dreams, New York, NY.
+						<div class = "label">PUBLICATIONS</div>
+						<ul>
+							<li>Cicada Magazine (cover), March 2010</li>
+							<li>Cicada Magazine (cover), February 2008</li>
+							<li>Letteri, Marianne (editor), Angels: Artists Imagine the Invisible, 2008, p.108</li>
+							<li>Letteri, Marianne (editor), Women of the Bible: Mothers, Harlots, Wives, and Queens, 2008, p.27</li>
+						</ul>
 
-<div class = "label">Press</div>
+						<div class = "label">Press</div>
+						<ul>
+							<li>"<a href = "http://arts.intervarsity.org/creative-content/birth-over-waters">Birth (Over the Waters)</a>", InterVarsity Arts Ministry, publication date: October 9, 2013</li>
+							<li>Tina Lincer, "<a href = "http://www.union.edu/news/stories/2013/05/student-spotlight-sheri-park-13.php">Student Spotlight: Sheri Park '13</a>", Union College, publication date: May 13, 2013</li>
+							<li>Elizabeth Cardella, "<a href = "https://vimeo.com/62020427">Artist Spotlight: Sheri Park</a>", Calvary Tabernacle, access date: July 30, 2013</li>
+							<li>"Featured Creative Activist: Sheri Park", World Vision ACT:S, publication date: August 3, 2012</li>
+							<li>Shilpa Darivemula, "Present: Artistic Expressions by Sheri Park", Union College Concordiensis publication date: Thursday, May 6, 2010</li>
+						</ul>
 
-2014    "Birth (Over the Waters)", InterVarsity Arts Ministry, publication date: October 9, 2013
-(http://arts.intervarsity.org/creative-content/birth-over-waters--you can link this to the title, as has been done with other pieces in the PRESS section)
+						<div class = "label">GRANTS, AWARDS, RESIDENCES</div>
+						<ul>
+							<li>2014 Vallejo Pacific Studio residency, Vallejo, CA</li>
+							<li>2013 Juror's Choice Award, Just Art: Creative Competitions on Human Trafficking, The Price of Life, New York, NY</li>
+							<li>2013 Charles Alexander Richmond Prize in Fine Arts, Union College, Schenectady, NY</li>
+							<li>2013 Student Research Grant, Union College, Schenectady, NY</li>
+							<li>2012 Student Research Grant, Union College, Schenectady, NY</li>
+							<li>2012 Undergraduate Summer Research Fellowship, Union College, Schenectady, NY</li>
+							<li>2012 Judge's Choice Award, Library Catalogue Card Art Competition, Union College, Schenectady, NY</li>
+							<li>2011 Arnold Bittleman Undergraduate Summer Research Fellowship, Union College, Schenectady, NY</li>
+						</ul>
 
-<div class = "label">Teaching</div>
 
-2014-15    Private In Home Art Teacher, Bay Area, CA
-2013        Afterschool Art Teacher, Abracadabra Afterschool Program, Mountain View, CA
 
-<div class = "label">GRANTS, AWARDS, RESIDENCES</div>
+						<div class = "label">Teaching</div>
+						<ul>
+							<li>2014-15    Private In Home Art Teacher, Bay Area, CA</li>
+							<li>2013        Afterschool Art Teacher, Abracadabra Afterschool Program, Mountain View, CA</li>				
+							<li>2012 Visiting Art & Dance Teacher, Truong Vuong Middle School, Hanoi, Vietnam</li>
+							<li>2010 Intern/Teaching Assistant, Lascaux Academy, Belmont, CA</li>
 
-2014     Vallejo Pacific Studio residency, Vallejo, CA
-2013    Juror's Choice Award, Just Art: Creative Competitions on Human Trafficking, The Price of Life, New York, NY
+						</ul>
+
 
 					</div>
+					
+					
 				</div>
-
-				<footer>
-
-				</footer>
+				
 			</div>
+			<footer>
+						<table>
+							<tbody>
+								<tr>
+									<td>
+										<a class = "logo" href = "http://adampere.com/spark"><img src = "/public/images/gen/logo.png"></a>
+									</td>
+									<td>
+										Portfolio
+									</td>
+									<td>
+										Archive
+									</td>
+									<td>Blog</td>
+								</tr>
+								<tr>
+									<td><a href = "mailto:info@sheripark.com">info [at] sheripark.com</a></td></td>
+									<td><a href = "/portfolio/white-white-red/">White White Red</a></td>
+									<td><a href = "/archive/still-hanoi-move">Still Hanoi Move</a></td>
+								<td></td>
+								</tr>
+								<tr>
+									<td><a href = "mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your slow mail. My name is   _________ My address is ___________.">[ Slow ]</a> or  <a href = "mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your fast mail. My name is   _________. My email address is ___________.">[ Fast ]</a> Newsletter</td>
+									<td><a href = "/portfolio/as-i-am-changing/">As I Am, Changing</a></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</footer>
 		</div>
 	</body>
 </html>

@@ -43,14 +43,14 @@ body {
 .title {
 	@extend .mate;
 	font-weight: 100;
-	font-size: 52px;	
-	line-height: 58px;
+	font-size: 45px;	
+	line-height: 52px;
 	
 	&.small {
-		font-size: 26px;
-		line-height: 28px;
+		font-size: 22px;
+		line-height: 24px;
 		margin-left: 5%;
-		margin-top: 20px;
+		margin-top: 6em;
 		max-width: 70%;
 	}
 }
@@ -75,7 +75,11 @@ body {
 }
 
 .statement {
-	@extend .mate;	
+	
+	em {
+		font-style: italic;
+	}
+	
 	
 	.label {	
 	}
@@ -109,4 +113,8 @@ body {
 
 		}
 	}
+}
+
+.portfolio-link {
+	text-align: right;	
 }

@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import "colors";
+@import "typography";
 
 html, html a {
 	-webkit-font-smoothing: antialiased !important;
@@ -14,8 +15,15 @@ html, html a {
 }
 
 a {
+	color: $text-color;
+	text-decoration: none;
 	transition: all 250ms ease-in-out;
+	
+	&:hover {
+		color: $text-secondary-color;	
+	}
 }
+
 
 body {
 	
@@ -23,7 +31,7 @@ body {
 
 .main-wrapper {
 	z-index: 20;	
-	background: url('http://adampere.com/spark/public/images/bg3ab.png');	
+	background: url('../../public/images/bg3ab.png');	
 	background-repeat: repeat;
 	padding: 60px 0px;
 	margin-top: 800px;
@@ -40,49 +48,93 @@ body {
 	color: $text-color;
 }
 
-.blog-link {
-	position: fixed;
-	left: 20px;
-	bottom: 50%;
-	
-	transform: rotate(270deg);
-	z-index: 30;
-	transition: all 250ms ease-in-out;
-	
-	&:hover {
-		transform: scale(1.2, 1.2);
-	}	
-	
-	a {
-		z-index: 30;
-		color: $text-secondary-color;
-		text-decoration: none;
-		text-transform: capitalize;
-		font-size: 22px;
-	}
-}
+
 
 .logo-nav {
 	position:fixed;
 	left: 0;
 	top: 60px;
 	
+	&.second-option {
+		left: auto;
+		right: 0;
+		bottom: 60px;
+		top: auto;
+		
+		a {
+			position: absolute;
+			right: 0;
+			padding-right: 10px;
+			text-align: right;
+			
+			&:nth-of-type(1) {
+				top: -70px;	
+			}
+			&:nth-of-type(2) {
+				top: -31px;	
+			}
+			&:nth-of-type(3) {
+				top: 0px;	
+			}
+		}	
+	}
+	
 	.logo {
 		text-decoration: underline;
 		font-size: 26px;
 		text-transform: capitalize;
+		
+		img {
+			max-width: 150px;	
+		}
 	}
 	
 	a {
 		color: $text-secondary-color;
 		padding: 5px 10px;
-		padding-right: 10px;
+		padding-right: 20px;
 		display: table;	
 		background-color: rgba(255, 255, 255, 0.8);
 		text-decoration: none;
 		width: auto;
+		
+		&:first-of-type {
+			padding-right: 10px;	
+		}
+		
+		border-bottom: 1px solid rgba(199, 199, 199, 0.8);
+		
+		
+		transition: all 250ms ease-in-out;
+		
+		&:hover {
+			color: $text-color;	
+		}
 	}
 }	
+
+
+#as-i-am-changing-hero .wrapper .hero-image {
+	background: url('../../public/images/as_i_am_changing/04caged.jpg');
+	background-size: 110%;
+	background-position: center;
+}
+
+#index-hero .wrapper .hero-image {
+	background: url('../../public/images/sanguine_hero.JPG');
+	background-size: cover;
+}
+
+#white-white-red-hero .wrapper .hero-image {
+	background: url('../../public/images/white_white_red/home_grown/pop-2.jpeg');
+	background-size: cover;
+}
+
+ #about-hero .wrapper .hero-image {
+	background: url('../../public/images/gen/sheri.jpg');
+	background-size: cover;
+}
+
 
 
 .hero {
@@ -105,12 +157,9 @@ body {
 				color: white;
 			}
 			
-			.hero-image {
-				//transform: scale(1.05,1.05);
-			}
 			
 			.overlay {
-				background-color: $background-trans-color-dark;	
+				background-color: $background-trans-color-dark;
 			}
 		}
 		
@@ -124,7 +173,6 @@ body {
 		}
 		
 		.hero-image {
-			background: url('http://adampere.com/spark/public/images/sanguine_hero.JPG');
 			background-size: cover;	
 			background-position: center;
 			z-index: 5;
@@ -160,12 +208,12 @@ body {
 
 .content {
 	min-height: 300px;	
-	padding: 30px;
+	padding: 60px;
 }
 
 .project {
 	.project-info {
-		margin-bottom: 40px;
+		margin-bottom: 4em;
 		cursor: pointer;
 		
 		&:hover {
@@ -186,7 +234,7 @@ body {
 	.row {
 		width: auto;
 		margin: 0 auto;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 		
 		&.center {
 			text-align: center;	
@@ -194,6 +242,18 @@ body {
 		
 		&.no-bottom {
 			margin-bottom: 0px;	
+		}
+		
+		&.no-top {
+			margin-top: -2em;
+		}	
+		
+		&.top-margin {
+			margin-top: 7em;
+		}
+		
+		&.bottom-margin {
+			margin-bottom: 8em;	
 		}
 		
 		.one {
@@ -212,12 +272,17 @@ body {
 	}
 	
 	.statement {
-		width: 90%;
+		width: 70%;
 		margin: 0 auto;
 		margin-bottom: 40px;
 		
 		p {
 			margin-bottom: 10px;	
+		}
+		
+		&.lotsa-margin {
+			margin-top: 6em;
+			margin-bottom: 6em;
 		}
 	}
 	
@@ -232,9 +297,19 @@ body {
 		margin-bottom: 10px;
 		text-align: center;
 		display: inline-block;
+		vertical-align: top;
 		
 		&.one {
 			width: 80%;
+			
+			&.large {
+				width: 85%;	
+			}
+			
+			&.medium {
+				width: 50%;
+			}	
+			
 			img, div {
 				width: 100%;
 				height: auto;
@@ -277,5 +352,123 @@ body {
 			font-style: italic;
 		}
 		
+	}
+}
+
+#about {
+	
+	.project-info, .statement {
+		margin: 0 5%;	
+	}
+	
+	.project-info {
+		margin-bottom: 1em;	
+	}
+}
+
+.poem {
+	width: 275px;
+	margin: 0 auto;
+	line-height: 2.2em;
+	margin-top: 4em;
+	margin-bottom: 6em;
+	margin-left: calc(50% - 87px);
+}
+
+.cv {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1.5em;
+	margin-bottom: 6em;
+	
+	.label {
+		margin-bottom: .5em;
+		margin-top: 3em;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	
+	ul {
+		li {
+					
+		}
+	}
+}
+
+#white-white-red .current-exhibit {
+	margin: 0 auto;
+	width: 70%;
+	margin-bottom: 4em;
+}
+
+.current-exhibit{
+	margin: 0 5%;
+	
+	
+	margin-top: 3em;
+	margin-bottom: 3.5em;
+	
+	.label {
+		font-size: .8em;
+		margin-bottom: -.9em;
+	}
+	
+	ul {
+		li {
+			font-size: 1.1em;
+			&.ex-title {
+				font-weight: 600;
+				font-size: 1.5em;	
+				line-height: 2.2em;
+			}
+			
+			.small {
+				
+			}
+			
+			em {
+				font-style: italic;	
+			}
+			
+		}
+	}
+}
+
+.icon {
+	max-width: 20px;
+	height: auto;
+	height: auto;
+	cursor: pointer;
+	margin-top: 5px;
+	
+}
+
+footer {
+	table {
+		width: 70%;
+		max-width: 650px;
+		margin: 0 auto;
+		margin-top: 4em;
+		margin-bottom: 1.5em;
+		
+		font-size: .85em;
+		@extend .mate;
+		
+		tr {
+			td {
+				a {
+					color: $text-secondary-color;
+					
+					&:hover {
+						color: $text-color;	
+					}
+				}
+			}
+		}
+		
+		
+		.logo img {
+			width: 150px;	
+		}
 	}
 }

@@ -49,6 +49,77 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+.header-text {
+  color: #f4f1f1; }
+
+.header-sub-text {
+  color: #c3c3c3; }
+
+.main-text {
+  color: #4b4b4b; }
+
+.secondary-text {
+  color: rgba(75, 75, 75, 0.7); }
+
+.mate, .title, .subtitle, .project .project-info .title, .project .project-info .medium, .project .project-info .year, footer table {
+  font-family: 'Mate', serif; }
+
+.source-sans, body, .statement p {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+body {
+  font-size: 16px;
+  line-height: 20px; }
+
+.title {
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 52px; }
+  .title.small {
+    font-size: 22px;
+    line-height: 24px;
+    margin-left: 5%;
+    margin-top: 6em;
+    max-width: 70%; }
+
+.subtitle {
+  font-size: 26px; }
+
+.project .project-info .title, .project .project-info .medium, .project .project-info .year {
+  color: rgba(75, 75, 75, 0.7); }
+.project .project-info .medium, .project .project-info .year {
+  font-size: 26px;
+  line-height: 28px; }
+
+.statement em {
+  font-style: italic; }
+
+.quote {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-style: italic;
+  text-align: left;
+  font-size: 22px;
+  line-height: 27px; }
+  .quote p {
+    margin-bottom: 20px; }
+  .quote .author {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px; }
+    .quote .author .name {
+      font-style: normal;
+      font-weight: 700; }
+
+.portfolio-link {
+  text-align: right; }
+
 html, html a {
   -webkit-font-smoothing: antialiased !important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
@@ -56,11 +127,15 @@ html, html a {
   font-smooth: always; }
 
 a {
+  color: #4b4b4b;
+  text-decoration: none;
   transition: all 250ms ease-in-out; }
+  a:hover {
+    color: rgba(75, 75, 75, 0.7); }
 
 .main-wrapper {
   z-index: 20;
-  background: url("http://adampere.com/spark/public/images/bg3ab.png");
+  background: url("../../public/images/bg3ab.png");
   background-repeat: repeat;
   padding: 60px 0px;
   margin-top: 800px;
@@ -75,38 +150,63 @@ a {
   width: calc(100% - 200px);
   color: #4b4b4b; }
 
-.blog-link {
-  position: fixed;
-  left: 20px;
-  bottom: 50%;
-  transform: rotate(270deg);
-  z-index: 30;
-  transition: all 250ms ease-in-out; }
-  .blog-link:hover {
-    transform: scale(1.2, 1.2); }
-  .blog-link a {
-    z-index: 30;
-    color: rgba(75, 75, 75, 0.7);
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 22px; }
-
 .logo-nav {
   position: fixed;
   left: 0;
   top: 60px; }
+  .logo-nav.second-option {
+    left: auto;
+    right: 0;
+    bottom: 60px;
+    top: auto; }
+    .logo-nav.second-option a {
+      position: absolute;
+      right: 0;
+      padding-right: 10px;
+      text-align: right; }
+      .logo-nav.second-option a:nth-of-type(1) {
+        top: -70px; }
+      .logo-nav.second-option a:nth-of-type(2) {
+        top: -31px; }
+      .logo-nav.second-option a:nth-of-type(3) {
+        top: 0px; }
   .logo-nav .logo {
     text-decoration: underline;
     font-size: 26px;
     text-transform: capitalize; }
+    .logo-nav .logo img {
+      max-width: 150px; }
   .logo-nav a {
     color: rgba(75, 75, 75, 0.7);
     padding: 5px 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     display: table;
     background-color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
-    width: auto; }
+    width: auto;
+    border-bottom: 1px solid rgba(199, 199, 199, 0.8);
+    transition: all 250ms ease-in-out; }
+    .logo-nav a:first-of-type {
+      padding-right: 10px; }
+    .logo-nav a:hover {
+      color: #4b4b4b; }
+
+#as-i-am-changing-hero .wrapper .hero-image {
+  background: url("../../public/images/as_i_am_changing/04caged.jpg");
+  background-size: 110%;
+  background-position: center; }
+
+#index-hero .wrapper .hero-image {
+  background: url("../../public/images/sanguine_hero.JPG");
+  background-size: cover; }
+
+#white-white-red-hero .wrapper .hero-image {
+  background: url("../../public/images/white_white_red/home_grown/pop-2.jpeg");
+  background-size: cover; }
+
+#about-hero .wrapper .hero-image {
+  background: url("../../public/images/gen/sheri.jpg");
+  background-size: cover; }
 
 .hero {
   width: 100%;
@@ -133,7 +233,6 @@ a {
       left: 0;
       z-index: 10; }
     .hero .wrapper .hero-image {
-      background: url("http://adampere.com/spark/public/images/sanguine_hero.JPG");
       background-size: cover;
       background-position: center;
       z-index: 5;
@@ -159,10 +258,10 @@ a {
 
 .content {
   min-height: 300px;
-  padding: 30px; }
+  padding: 60px; }
 
 .project .project-info {
-  margin-bottom: 40px;
+  margin-bottom: 4em;
   cursor: pointer; }
   .project .project-info:hover .title {
     color: #262626; }
@@ -173,11 +272,17 @@ a {
 .project .row {
   width: auto;
   margin: 0 auto;
-  margin-bottom: 40px; }
+  margin-bottom: 60px; }
   .project .row.center {
     text-align: center; }
   .project .row.no-bottom {
     margin-bottom: 0px; }
+  .project .row.no-top {
+    margin-top: -2em; }
+  .project .row.top-margin {
+    margin-top: 7em; }
+  .project .row.bottom-margin {
+    margin-bottom: 8em; }
   .project .row .one {
     width: 100%; }
     .project .row .one.medium {
@@ -187,11 +292,14 @@ a {
     height: auto;
     padding: 0 2%; }
 .project .statement {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 40px; }
   .project .statement p {
     margin-bottom: 10px; }
+  .project .statement.lotsa-margin {
+    margin-top: 6em;
+    margin-bottom: 6em; }
 .project .title.small {
   margin-bottom: 20px; }
 .project .project-item {
@@ -199,9 +307,14 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top; }
   .project .project-item.one {
     width: 80%; }
+    .project .project-item.one.large {
+      width: 85%; }
+    .project .project-item.one.medium {
+      width: 50%; }
     .project .project-item.one img, .project .project-item.one div {
       width: 100%;
       height: auto;
@@ -228,3 +341,69 @@ a {
       text-align: right; }
   .project .project-item .item-title {
     font-style: italic; }
+
+#about .project-info, #about .statement {
+  margin: 0 5%; }
+#about .project-info {
+  margin-bottom: 1em; }
+
+.poem {
+  width: 275px;
+  margin: 0 auto;
+  line-height: 2.2em;
+  margin-top: 4em;
+  margin-bottom: 6em;
+  margin-left: calc(50% - 87px); }
+
+.cv {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1.5em;
+  margin-bottom: 6em; }
+  .cv .label {
+    margin-bottom: .5em;
+    margin-top: 3em;
+    text-transform: uppercase;
+    font-weight: 700; }
+
+#white-white-red .current-exhibit {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 4em; }
+
+.current-exhibit {
+  margin: 0 5%;
+  margin-top: 3em;
+  margin-bottom: 3.5em; }
+  .current-exhibit .label {
+    font-size: .8em;
+    margin-bottom: -.9em; }
+  .current-exhibit ul li {
+    font-size: 1.1em; }
+    .current-exhibit ul li.ex-title {
+      font-weight: 600;
+      font-size: 1.5em;
+      line-height: 2.2em; }
+    .current-exhibit ul li em {
+      font-style: italic; }
+
+.icon {
+  max-width: 20px;
+  height: auto;
+  height: auto;
+  cursor: pointer;
+  margin-top: 5px; }
+
+footer table {
+  width: 70%;
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 1.5em;
+  font-size: .85em; }
+  footer table tr td a {
+    color: rgba(75, 75, 75, 0.7); }
+    footer table tr td a:hover {
+      color: #4b4b4b; }
+  footer table .logo img {
+    width: 150px; }
