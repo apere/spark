@@ -217,6 +217,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/gen\/sheri.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 760542,
+		"inputAbbreviatedPath": "\/public\/images\/gen\/sheri.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/gen\/sheri.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/icon\/fb.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -191,6 +191,10 @@ a {
     .logo-nav a:hover {
       color: #4b4b4b; }
 
+#still-hanoi-hero .wrapper .hero-image {
+  background: url("../../public/images/still_hanoi_move/08park_xtragood4.JPG");
+  background-size: cover; }
+
 #as-i-am-changing-hero .wrapper .hero-image {
   background: url("../../public/images/as_i_am_changing/04caged.jpg");
   background-size: 110%;
