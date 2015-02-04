@@ -11,6 +11,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/archive\/stack-through\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/archive\/stack-through\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/archive\/still-hanoi-move\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/archive\/still-hanoi-move\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -260,6 +278,138 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/public\/images\/stack_through\/01_see.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.76617e+06,
+		"inputAbbreviatedPath": "\/public\/images\/stack_through\/01_see.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/stack_through\/01_see.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/stack_through\/02_children_of_disorg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.54616e+06,
+		"inputAbbreviatedPath": "\/public\/images\/stack_through\/02_children_of_disorg.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/stack_through\/02_children_of_disorg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/stack_through\/03_patterns_of_problem.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.84975e+06,
+		"inputAbbreviatedPath": "\/public\/images\/stack_through\/03_patterns_of_problem.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/stack_through\/03_patterns_of_problem.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/01park_hanoivn2011_05.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 891935,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/01park_hanoivn2011_05.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/01park_hanoivn2011_05.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/02park_landscapeVn2011_extra3.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 610858,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/02park_landscapeVn2011_extra3.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/02park_landscapeVn2011_extra3.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/03park_hanoivn2011_06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 910613,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/03park_hanoivn2011_06.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/03park_hanoivn2011_06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/04park_landscapeVn2011_2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 710456,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/04park_landscapeVn2011_2.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/04park_landscapeVn2011_2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/05park_hanoivn2011_09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 902403,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/05park_hanoivn2011_09.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/05park_hanoivn2011_09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/06park_peopleVn2011_extra1.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 745656,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/06park_peopleVn2011_extra1.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/06park_peopleVn2011_extra1.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/07park_peopleVn2011_4.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 749548,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/07park_peopleVn2011_4.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/07park_peopleVn2011_4.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/08park_xtragood4.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 792165,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/08park_xtragood4.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/08park_xtragood4.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/still_hanoi_move\/09park_hanoivn2011_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 813811,
+		"inputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/09park_hanoivn2011_03.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/09park_hanoivn2011_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/white_white_red\/flight\/beginning.jpg": {
 		"fileType": 16384,

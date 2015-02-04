@@ -79,6 +79,30 @@ body {
 		}	
 	}
 	
+	&.third-option {
+		position:inherit;
+		text-align: center;
+		margin-top: -40px;
+		margin-bottom: 60px;
+		
+		a {
+			display: inline-block;
+			vertical-align: middle;
+			border-bottom: 0px;
+		}	
+		
+		.logo {
+			max-width: 350px;
+			display: block;
+			width: auto;
+			margin: 0 auto;
+			img {
+				max-width: 350px;	
+				margin-left: -21px;
+			}
+		}
+	}
+	
 	.logo {
 		text-decoration: underline;
 		font-size: 26px;
@@ -113,6 +137,17 @@ body {
 	}
 }	
 
+#genesis-dreamtime-hero .wrapper .hero-image {
+	background: url('../../public/images/genesis_and_dreamtime/03_touch_in_the_image.JPG');
+}
+
+#archive-hero .wrapper .hero-image {
+	background: url('../../public/images/still_hanoi_move/02park_landscapeVn2011_extra3.JPG');	
+}
+
+#stack-through-hero .wrapper .hero-image {
+	background: url('../../public/images/stack_through/03_patterns_of_problem.jpg');
+}
 
 #still-hanoi-hero .wrapper .hero-image {
 	background: url('../../public/images/still_hanoi_move/08park_xtragood4.JPG');
@@ -130,8 +165,13 @@ body {
 	background-size: cover;
 }
 
-#white-white-red-hero .wrapper .hero-image {
+#white-white-red-hero .wrapper .hero-image{
 	background: url('../../public/images/white_white_red/home_grown/pop-2.jpeg');
+	background-size: cover;
+}
+
+#portfolio-hero .wrapper .hero-image {
+	background: url('../../public/images/white_white_red/flight/beginning.jpg');
 	background-size: cover;
 }
 
@@ -217,6 +257,11 @@ body {
 }
 
 .project {
+	
+	&.top-margin {
+		margin-top: 4em;	
+	}
+	
 	.project-info {
 		margin-bottom: 4em;
 		cursor: pointer;

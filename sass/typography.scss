@@ -118,3 +118,11 @@ body {
 .portfolio-link {
 	text-align: right;	
 }
+
+a.black {
+	color: black;
+	
+	&:hover {
+		color: $text-secondary-color;
+	}	
+}	
