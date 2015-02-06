@@ -1,4 +1,10 @@
 $( document ).ready(function() {
+
+    $("img.lazy").lazyload({
+		threshold : 100,
+		effect : "fadeIn"	
+	});
+
 	//portfolio
     $('#white-white-red-hero, #white-white-red .project-info, #index-hero').on('click', function() {
 		window.location.href = 'http://www.sheripark.com/portfolio/white-white-red/';

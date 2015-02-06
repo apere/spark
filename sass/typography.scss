@@ -126,3 +126,12 @@ a.black {
 		color: $text-secondary-color;
 	}	
 }	
+
+
+#about .statement {
+	margin-bottom: 1em;
+	
+	&:first-of-type {
+		margin-top: 2em;	
+	}
+}

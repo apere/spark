@@ -125,6 +125,11 @@ a.black {
   a.black:hover {
     color: rgba(75, 75, 75, 0.7); }
 
+#about .statement {
+  margin-bottom: 1em; }
+  #about .statement:first-of-type {
+    margin-top: 2em; }
+
 html, html a {
   -webkit-font-smoothing: antialiased !important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);

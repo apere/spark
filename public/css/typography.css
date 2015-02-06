@@ -120,3 +120,8 @@ a.black {
   color: black; }
   a.black:hover {
     color: rgba(75, 75, 75, 0.7); }
+
+#about .statement {
+  margin-bottom: 1em; }
+  #about .statement:first-of-type {
+    margin-top: 2em; }
