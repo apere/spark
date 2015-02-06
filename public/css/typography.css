@@ -73,7 +73,7 @@ body {
 
 .title {
   font-weight: 100;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 52px; }
   .title.small {
     font-size: 22px;
@@ -90,6 +90,9 @@ body {
 .project .project-info .medium, .project .project-info .year {
   font-size: 26px;
   line-height: 28px; }
+
+.statement em {
+  font-style: italic; }
 
 .quote {
   width: 70%;
@@ -109,3 +112,11 @@ body {
     .quote .author .name {
       font-style: normal;
       font-weight: 700; }
+
+.portfolio-link {
+  text-align: right; }
+
+a.black {
+  color: black; }
+  a.black:hover {
+    color: rgba(75, 75, 75, 0.7); }

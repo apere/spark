@@ -11,6 +11,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/archive\/genesis-and-dreamtime\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/archive\/genesis-and-dreamtime\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/archive\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/archive\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/archive\/stack-through\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -52,6 +70,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio\/as-i-am-changing\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -235,6 +262,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/gen\/logo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64766,
+		"inputAbbreviatedPath": "\/public\/images\/gen\/logo2.png",
+		"outputAbbreviatedPath": "\/public\/images\/gen\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/gen\/sheri.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -242,6 +280,83 @@
 		"initialSize": 760542,
 		"inputAbbreviatedPath": "\/public\/images\/gen\/sheri.jpg",
 		"outputAbbreviatedPath": "\/public\/images\/gen\/sheri.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/genesis_and_dreamtime\/01_void.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 596538,
+		"inputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/01_void.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/01_void.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/genesis_and_dreamtime\/02_pull.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 682553,
+		"inputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/02_pull.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/02_pull.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/genesis_and_dreamtime\/03_touch_in_the_image.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 702497,
+		"inputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/03_touch_in_the_image.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/03_touch_in_the_image.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/genesis_and_dreamtime\/04_birth_over_the_waters.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 630592,
+		"inputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/04_birth_over_the_waters.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/04_birth_over_the_waters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/genesis_and_dreamtime\/05_choke_hide.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 713236,
+		"inputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/05_choke_hide.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/05_choke_hide.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/genesis_and_dreamtime\/06_IMG_0529.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 609703,
+		"inputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/06_IMG_0529.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/06_IMG_0529.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/genesis_and_dreamtime\/07_IMG_0530.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 634223,
+		"inputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/07_IMG_0530.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/07_IMG_0530.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -256,17 +371,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/public\/images\/logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16209,
-		"inputAbbreviatedPath": "\/public\/images\/logo.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/logo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
 		},
 	"\/public\/images\/sanguine_hero.JPG": {
 		"fileType": 16384,
@@ -757,8 +861,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/sass\/colors.scss",
 		"outputAbbreviatedPath": "\/public\/css\/colors.css",
 		"outputPathIsOutsideProject": 0,
@@ -789,8 +893,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/sass\/typography.scss",
 		"outputAbbreviatedPath": "\/public\/css\/typography.css",
 		"outputPathIsOutsideProject": 0,
@@ -805,6 +909,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/test2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/test2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
