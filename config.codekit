@@ -137,7 +137,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/03prayer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/as_i_am_changing\/04caged.jpg": {
 		"fileType": 16384,
@@ -148,7 +148,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/04caged.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/as_i_am_changing\/08_exhibition_setup.JPG": {
 		"fileType": 16384,
@@ -159,7 +159,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/08_exhibition_setup.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/as_i_am_changing\/09_exhibition_setup.JPG": {
 		"fileType": 16384,
@@ -170,7 +170,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/09_exhibition_setup.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/as_i_am_changing\/collage.JPG": {
 		"fileType": 16384,
@@ -181,7 +181,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/collage.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/as_i_am_changing\/collage_detai.jpeg": {
 		"fileType": 16384,
@@ -192,7 +192,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/collage_detai.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/as_i_am_changing\/vidoe.png": {
 		"fileType": 32768,
@@ -203,7 +203,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/as_i_am_changing\/vidoe.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/bg1.png": {
 		"fileType": 32768,
@@ -269,7 +269,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/gen\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/gen\/logo2.png": {
 		"fileType": 32768,
@@ -280,7 +280,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/gen\/logo2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/gen\/sheri.jpg": {
 		"fileType": 16384,
@@ -291,7 +291,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/gen\/sheri.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/genesis_and_dreamtime\/01_void.JPG": {
 		"fileType": 16384,
@@ -302,7 +302,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/01_void.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/genesis_and_dreamtime\/02_pull.JPG": {
 		"fileType": 16384,
@@ -313,7 +313,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/02_pull.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/genesis_and_dreamtime\/03_touch_in_the_image.JPG": {
 		"fileType": 16384,
@@ -324,7 +324,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/03_touch_in_the_image.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/genesis_and_dreamtime\/04_birth_over_the_waters.jpg": {
 		"fileType": 16384,
@@ -335,7 +335,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/04_birth_over_the_waters.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/genesis_and_dreamtime\/05_choke_hide.JPG": {
 		"fileType": 16384,
@@ -346,7 +346,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/05_choke_hide.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/genesis_and_dreamtime\/06_IMG_0529.JPG": {
 		"fileType": 16384,
@@ -357,7 +357,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/06_IMG_0529.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/genesis_and_dreamtime\/07_IMG_0530.JPG": {
 		"fileType": 16384,
@@ -368,7 +368,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/genesis_and_dreamtime\/07_IMG_0530.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/icon\/fb.png": {
 		"fileType": 32768,
@@ -379,7 +379,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/icon\/fb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/sanguine_hero.JPG": {
 		"fileType": 16384,
@@ -401,7 +401,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/stack_through\/01_see.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/stack_through\/02_children_of_disorg.jpg": {
 		"fileType": 16384,
@@ -412,7 +412,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/stack_through\/02_children_of_disorg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/stack_through\/03_patterns_of_problem.jpg": {
 		"fileType": 16384,
@@ -423,7 +423,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/stack_through\/03_patterns_of_problem.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/01park_hanoivn2011_05.JPG": {
 		"fileType": 16384,
@@ -434,7 +434,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/01park_hanoivn2011_05.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/02park_landscapeVn2011_extra3.JPG": {
 		"fileType": 16384,
@@ -445,7 +445,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/02park_landscapeVn2011_extra3.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/03park_hanoivn2011_06.jpg": {
 		"fileType": 16384,
@@ -456,7 +456,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/03park_hanoivn2011_06.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/04park_landscapeVn2011_2.JPG": {
 		"fileType": 16384,
@@ -467,7 +467,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/04park_landscapeVn2011_2.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/05park_hanoivn2011_09.jpg": {
 		"fileType": 16384,
@@ -478,7 +478,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/05park_hanoivn2011_09.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/06park_peopleVn2011_extra1.JPG": {
 		"fileType": 16384,
@@ -489,7 +489,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/06park_peopleVn2011_extra1.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/07park_peopleVn2011_4.JPG": {
 		"fileType": 16384,
@@ -500,7 +500,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/07park_peopleVn2011_4.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/08park_xtragood4.JPG": {
 		"fileType": 16384,
@@ -511,7 +511,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/08park_xtragood4.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/still_hanoi_move\/09park_hanoivn2011_03.jpg": {
 		"fileType": 16384,
@@ -522,7 +522,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/still_hanoi_move\/09park_hanoivn2011_03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-1.jpg": {
 		"fileType": 16384,
@@ -533,7 +533,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-2.jpg": {
 		"fileType": 16384,
@@ -544,7 +544,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-spirialdetail2.JPG": {
 		"fileType": 16384,
@@ -555,7 +555,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-spirialdetail2.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-sprialdetail.JPG": {
 		"fileType": 16384,
@@ -566,7 +566,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-sprialdetail.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3.jpg": {
 		"fileType": 16384,
@@ -577,7 +577,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-6.JPG": {
 		"fileType": 16384,
@@ -588,7 +588,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-6.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-1.JPG": {
 		"fileType": 16384,
@@ -599,7 +599,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-1.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-2.JPG": {
 		"fileType": 16384,
@@ -610,7 +610,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-2.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG": {
 		"fileType": 16384,
@@ -621,7 +621,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-5.JPG": {
 		"fileType": 16384,
@@ -632,7 +632,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-5.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-1.jpg": {
 		"fileType": 16384,
@@ -643,7 +643,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-10.jpg": {
 		"fileType": 16384,
@@ -654,7 +654,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-2.jpg": {
 		"fileType": 16384,
@@ -665,18 +665,18 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3jpg.jpg": {
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 329573,
-		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3jpg.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3jpg.jpg",
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-4.jpg": {
 		"fileType": 16384,
@@ -687,7 +687,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-5.jpg": {
 		"fileType": 16384,
@@ -698,7 +698,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-6.jpg": {
 		"fileType": 16384,
@@ -709,7 +709,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-7.jpg": {
 		"fileType": 16384,
@@ -720,7 +720,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-8.jpg": {
 		"fileType": 16384,
@@ -731,7 +731,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-9.jpg": {
 		"fileType": 16384,
@@ -742,18 +742,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/saturday-7.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.16684e+06,
-		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/saturday-7.JPG",
-		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/saturday-7.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-1.jpg": {
 		"fileType": 16384,
@@ -764,7 +753,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-2.jpg": {
 		"fileType": 16384,
@@ -775,7 +764,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-3.jpg": {
 		"fileType": 16384,
@@ -786,7 +775,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-4.JPG": {
 		"fileType": 16384,
@@ -797,7 +786,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-4.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-5.JPG": {
 		"fileType": 16384,
@@ -808,7 +797,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-5.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-6.JPG": {
 		"fileType": 16384,
@@ -819,7 +808,18 @@
 		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-6.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-7.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.16684e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-7.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-7.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/flight\/beginning.jpg": {
 		"fileType": 16384,
@@ -830,7 +830,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/flight\/beginning.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/flight\/ending.png": {
 		"fileType": 32768,
@@ -841,7 +841,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/flight\/ending.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/flight\/middle.jpg": {
 		"fileType": 16384,
@@ -852,7 +852,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/flight\/middle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/fortunate\/07_fortunate_dyptich.jpg": {
 		"fileType": 16384,
@@ -863,7 +863,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/fortunate\/07_fortunate_dyptich.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/home_grown\/blasto-back.jpg": {
 		"fileType": 16384,
@@ -874,7 +874,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/home_grown\/blasto-back.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/home_grown\/blasto-front.jpg": {
 		"fileType": 16384,
@@ -885,7 +885,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/home_grown\/blasto-front.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/home_grown\/blasto_detail.JPG": {
 		"fileType": 16384,
@@ -896,7 +896,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/home_grown\/blasto_detail.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/home_grown\/pop-1.jpg": {
 		"fileType": 16384,
@@ -907,7 +907,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/home_grown\/pop-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/home_grown\/pop-2.jpeg": {
 		"fileType": 16384,
@@ -918,7 +918,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/home_grown\/pop-2.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/home_grown\/pop-2.jpg": {
 		"fileType": 16384,
@@ -929,7 +929,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/home_grown\/pop-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/home_grown\/pop-detail.jpg": {
 		"fileType": 16384,
@@ -940,7 +940,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/home_grown\/pop-detail.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/ovary\/ovary_detail.jpeg": {
 		"fileType": 16384,
@@ -951,7 +951,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/ovary\/ovary_detail.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/ovary\/ovary_earrings.JPG": {
 		"fileType": 16384,
@@ -962,7 +962,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/ovary\/ovary_earrings.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/ovary\/ovary_side.JPG": {
 		"fileType": 16384,
@@ -973,7 +973,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/ovary\/ovary_side.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_1sanguine_1.JPG": {
 		"fileType": 16384,
@@ -984,7 +984,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_1sanguine_1.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_2sanguine_st2.JPG": {
 		"fileType": 16384,
@@ -995,7 +995,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_2sanguine_st2.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_3sanguine_st3.JPG": {
 		"fileType": 16384,
@@ -1006,7 +1006,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_3sanguine_st3.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_4sanguine_st4.JPG": {
 		"fileType": 16384,
@@ -1017,7 +1017,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_4sanguine_st4.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_5sanguine_st8.JPG": {
 		"fileType": 16384,
@@ -1028,7 +1028,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_5sanguine_st8.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_6sanguine_st9.JPG": {
 		"fileType": 16384,
@@ -1039,7 +1039,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_6sanguine_st9.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_7sanguine_st10.JPG": {
 		"fileType": 16384,
@@ -1050,7 +1050,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_7sanguine_st10.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_8sanguine_st14.JPG": {
 		"fileType": 16384,
@@ -1061,7 +1061,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_8sanguine_st14.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/sanguine_way\/01_sanguine_0.JPG": {
 		"fileType": 16384,
@@ -1072,7 +1072,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/sanguine_way\/01_sanguine_0.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/she_said_no\/06_she_said_no-lo.jpg": {
 		"fileType": 16384,
@@ -1094,7 +1094,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/uterus_necklace\/02_0uterus_necklace_plain.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/white_white_red\/uterus_necklace\/02_1_uterus_necklace_wearing.JPG": {
 		"fileType": 16384,
@@ -1105,7 +1105,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/white_white_red\/uterus_necklace\/02_1_uterus_necklace_wearing.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/js\/all.js": {
 		"fileType": 64,
