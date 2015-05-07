@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18493",
+"creatorBuild": "18966",
 "files": {
 	"\/about\/index.html": {
 		"fileType": 8192,
@@ -79,6 +79,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/Today-Friday-Saturday-Sunday\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/Today-Friday-Saturday-Sunday\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -515,6 +524,303 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.56376e+07,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-1.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.71114e+07,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-2.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-spirialdetail2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.94171e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-spirialdetail2.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-spirialdetail2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-sprialdetail.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.98049e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-sprialdetail.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-sprialdetail.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.55192e+07,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-6.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.68312e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-6.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-6.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-1.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.77962e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-1.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-1.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-2.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.59588e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-2.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.29682e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-5.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.18362e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-5.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-5.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203621,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-1.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 180325,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-10.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 311269,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-2.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3jpg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329573,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3jpg.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-3jpg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 437989,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-4.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369765,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-5.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362341,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-6.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 570853,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-7.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 313189,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-8.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216677,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-9.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/saturday-7.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.16684e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/saturday-7.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/saturday-7.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.76831e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-1.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8.55296e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-2.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.12035e+07,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-3.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-4.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.41572e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-4.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-4.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-5.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.49528e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-5.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-5.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-6.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.47495e+06,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-6.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-6.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/white_white_red\/flight\/beginning.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -903,29 +1209,11 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/test.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/test.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/test2.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/test2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Adam Pere",
+"lastSavedByUser": "adam m pere",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -1196,6 +1484,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -1282,6 +1574,10 @@
 			},
 		"noarg": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -1382,6 +1678,10 @@
 			},
 		"unused": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -1507,6 +1807,14 @@
 			"flagValue": -1
 			}
 		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
 	"kitAutoOutputPathEnabled": 1,
 	"kitAutoOutputPathFilenamePattern": "*.html",
 	"kitAutoOutputPathRelativePath": "",
@@ -1534,9 +1842,18 @@
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
 	"markdownEnableFootnotes": 0,
-	"markdownEnableSmartyPants": 1,
-	"markdownExpandTabs": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
 	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
@@ -1592,6 +1909,10 @@
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1672,6 +1993,10 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
 			"active": 0,
 			"flagValue": -1
 			},

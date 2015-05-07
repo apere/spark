@@ -6,7 +6,7 @@ $( document ).ready(function() {
 	});
 
 	//portfolio
-    $('#white-white-red-hero, #white-white-red .project-info, #index-hero').on('click', function() {
+    $('#white-white-red-hero, #white-white-red .project-info').on('click', function() {
 		window.location.href = 'http://www.sheripark.com/portfolio/white-white-red/';
 	});
 	
@@ -26,6 +26,10 @@ $( document ).ready(function() {
 	
 	$('#still-hanoi-hero, #still-hanoi .project-info').on('click', function() {
 		window.location.href = 'http://www.sheripark.com/archive/still-hanoi-move/';
+	});
+	
+	$('#today-fri-sat-sun-hero, #today-fri-sat-sun .project-info, #index-hero').on('click', function() {
+		window.location.href = 'http://www.sheripark.com/portfolio/Today-Friday-Saturday-Sunday/index.html';
 	});
 });
 

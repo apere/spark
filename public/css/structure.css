@@ -213,8 +213,9 @@ a {
   background-position: center; }
 
 #index-hero .wrapper .hero-image {
-  background: url("../../public/images/sanguine_hero.JPG");
-  background-size: cover; }
+  background: url("../../public/images/today_friday_saturday_sunday/Friday/friday-friday-4.JPG");
+  background-size: cover;
+  background-position-y: center; }
 
 #white-white-red-hero .wrapper .hero-image {
   background: url("../../public/images/white_white_red/home_grown/pop-2.jpeg");
@@ -227,6 +228,11 @@ a {
 #about-hero .wrapper .hero-image {
   background: url("../../public/images/gen/sheri.jpg");
   background-size: cover; }
+
+#today-fri-sat-sun-hero .wrapper .hero-image {
+  background: url("../../public/images/today_friday_saturday_sunday/Sunday/sunday-2.jpg");
+  background-size: cover;
+  background-position-y: center; }
 
 .hero {
   width: 100%;
@@ -309,6 +315,8 @@ a {
     width: 100%; }
     .project .row .one.medium {
       width: 70%; }
+    .project .row .one.small {
+      width: 50%; }
   .project .row .four {
     width: 20%;
     height: auto;
@@ -419,6 +427,8 @@ a {
   transition: all 250ms ease-in-out; }
   .icon:hover {
     opacity: .7; }
+  .icon.left-margin {
+    margin-left: 1em; }
 
 footer table {
   width: 70%;

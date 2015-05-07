@@ -126,8 +126,9 @@ body {
 }
 
 #index-hero .wrapper .hero-image {
-	background: url('../../public/images/sanguine_hero.JPG');
+	background: url('../../public/images/today_friday_saturday_sunday/Friday/friday-friday-4.JPG');
 	background-size: cover;
+	background-position-y: center;
 }
 
 #white-white-red-hero .wrapper .hero-image{
@@ -140,10 +141,18 @@ body {
 	background-size: cover;
 }
 
- #about-hero .wrapper .hero-image {
+#about-hero .wrapper .hero-image {
 	background: url('../../public/images/gen/sheri.jpg');
 	background-size: cover;
 }
+
+
+#today-fri-sat-sun-hero .wrapper .hero-image {
+	background: url('../../public/images/today_friday_saturday_sunday/Sunday/sunday-2.jpg');
+	background-size: cover;
+	background-position-y: center;
+}
+
 
 
 
@@ -276,6 +285,10 @@ body {
 			
 			&.medium {
 				width: 70%;	
+			}
+			
+			&.small {
+				width: 50%;
 			}
 		}
 		
@@ -460,6 +473,10 @@ body {
 	
 	&:hover {
 		opacity: .7;	
+	}
+	
+	&.left-margin {
+		margin-left: 1em;	
 	}
 	
 }
