@@ -1,0 +1,91 @@
+.main-wrapper {
+  margin-top: 250px;
+  position: relative;
+  padding-top: 40px; }
+  .main-wrapper .main-container {
+    margin: 0;
+    max-width: none; }
+
+.hero .wrapper {
+  height: 250px; }
+  .hero .wrapper .hero-text {
+    bottom: inherit;
+    top: calc(50% - 45px); }
+
+.logo-nav {
+  text-align: left;
+  width: 190px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 20px; }
+  .logo-nav a {
+    padding-right: 5px;
+    padding: 5px;
+    display: block;
+    text-align: left; }
+  .logo-nav .logo {
+    padding-left: 10px;
+    width: 50px; }
+    .logo-nav .logo.divider {
+      width: 15px;
+      margin: .7em auto; }
+      .logo-nav .logo.divider img {
+        width: 100%; }
+    .logo-nav .logo img {
+      margin-left: 0px; }
+  .logo-nav .nav-title {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-weight: 700; }
+  .logo-nav .nav-projects li a {
+    font-size: .8em; }
+
+hr {
+  clear: both;
+  margin-top: 3em;
+  margin-bottom: 3em; }
+
+.post {
+  clear: both;
+  max-width: 870px; }
+  .post h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1em; }
+  .post h1, .post .tags li {
+    font-family: 'Mate', 'serif'; }
+  .post .tags {
+    line-height: .75em; }
+    .post .tags li {
+      display: inline-block;
+      font-size: .8em; }
+      .post .tags li.post-tag, .post .tags li.post-date {
+        color: rgba(75, 75, 75, 0.7); }
+        .post .tags li.post-tag .list-title, .post .tags li.post-date .list-title {
+          color: #4b4b4b; }
+    .post .tags.project-info {
+      line-height: 1.2em;
+      margin-top: 2px; }
+      .post .tags.project-info li {
+        font-size: 1em; }
+        .post .tags.project-info li.post-date, .post .tags.project-info li.post-tag {
+          font-size: .8em; }
+        .post .tags.project-info li.post-date {
+          margin-left: 5px; }
+  .post .post-content {
+    margin: 20px 0px; }
+    .post .post-content img.full-image {
+      width: 100%; }
+    .post .post-content img.float-image {
+      width: 50%;
+      float: left;
+      margin: 1em 1em 4em 0px;
+      max-width: 380px; }
+    .post .post-content p {
+      margin-top: 1em;
+      margin-botom: 1em; }
+      .post .post-content p.post-quote {
+        font-style: italic;
+        margin-left: 2.5em;
+        margin-right: 2.5em; }

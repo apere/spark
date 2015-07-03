@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18966",
+"creatorBuild": "19022",
 "files": {
 	"\/about\/index.html": {
 		"fileType": 8192,
@@ -43,6 +43,241 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/archive\/still-hanoi-move\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/public\/css\/colors.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/css\/colors.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/public\/css\/structure.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/css\/structure.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/public\/css\/typography.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/css\/typography.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/public\/images\/bg1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 573422,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/bg1.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/bg1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/bg2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 958680,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/bg2.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/bg2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/bg3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78781,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/bg3.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/bg3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/bg3a.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71277,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/bg3a.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/bg3a.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/bg3ab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71254,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/bg3ab.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/bg3ab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/gen\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24997,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/gen\/logo.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/gen\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/gen\/logo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63465,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/gen\/logo2.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/gen\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/gen\/sheri.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 760542,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/gen\/sheri.jpg",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/gen\/sheri.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/icon\/fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18802,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/icon\/fb.png",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/icon\/fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 484875,
+		"inputAbbreviatedPath": "\/blog\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG",
+		"outputAbbreviatedPath": "\/blog\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-friday-4.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/public\/js\/all.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/js\/all.js",
+		"outputAbbreviatedPath": "\/blog\/public\/js\/min\/all-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/public\/js\/min\/all-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/js\/min\/all-min.js",
+		"outputAbbreviatedPath": "\/blog\/public\/js\/min\/min\/all-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/public\/sass\/sketch.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/sass\/sketch.scss",
+		"outputAbbreviatedPath": "\/public\/css\/sketch.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/blog\/public\/vendor\/handlebars.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/vendor\/handlebars.js",
+		"outputAbbreviatedPath": "\/blog\/public\/vendor\/min\/handlebars-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/public\/vendor\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/vendor\/jquery.js",
+		"outputAbbreviatedPath": "\/blog\/public\/vendor\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/public\/vendor\/jquery.lazyload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/public\/vendor\/jquery.lazyload.js",
+		"outputAbbreviatedPath": "\/blog\/public\/vendor\/min\/jquery.lazyload-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/sketches\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/sketches\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/thanks\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/thanks\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -546,6 +781,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 740804,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-20.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-21.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 419156,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-21.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-21.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-22.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 435875,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-22.JPG",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-22.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-23.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135032,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-23.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-23.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/today_friday_saturday_sunday\/Friday\/friday-3-4-spirialdetail2.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -743,6 +1022,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-blog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207482,
+		"inputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-blog.png",
+		"outputAbbreviatedPath": "\/public\/images\/today_friday_saturday_sunday\/Saturday\/saturday-blog.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/today_friday_saturday_sunday\/Sunday\/sunday-1.jpg": {
 		"fileType": 16384,
