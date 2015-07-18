@@ -2,12 +2,15 @@
   width: 100vw !important; 
 }
 
+[role=document] {
+  margin-top: 250px; 
+}
+
 main {
   z-index: 20;	
   background: url('../../assets/images/bg.png');	
   background-repeat: repeat;
   padding: 40px 0px 60px 0px;
-  margin-top: 250px;
   position: relative;
   width: 100% !important;
   max-width: $max-width;
