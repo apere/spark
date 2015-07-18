@@ -9,7 +9,14 @@
     </ul>
     <ul class = "tags">
       <li class="list-title">Tags: </li>
-      <?php the_tags('<li class = "post-tag">', ', ', '</li>'); ?>
+      <?php
+          $posttags = get_the_tags();
+          if ($posttags) {
+            foreach($posttags as $tag) {
+              echo '<li class = "post-tag"><a href ='. get_tag_link($tag->term_id). '>' . $tag->name . '</a></li>'; 
+            }
+          }
+        ?>
     </ul>
   </header>
   <div class="post-content">

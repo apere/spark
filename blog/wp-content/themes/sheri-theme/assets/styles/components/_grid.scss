@@ -1,3 +1,29 @@
 .container {
   width: 100vw !important; 
 }
+
+main {
+  z-index: 20;	
+  background: url('../../assets/images/bg.png');	
+  background-repeat: repeat;
+  padding: 40px 0px 60px 0px;
+  margin-top: 250px;
+  position: relative;
+  width: 100% !important;
+  max-width: $max-width;
+}
+
+.main-container {
+  margin: 0;
+  max-width: none;
+  min-height: 750px;
+  background-color: rgba(255, 255, 255, .8);
+  z-index: 20;
+  width: calc(100% - #{$sidebar-width});
+  color: $text-color;
+}
+
+.main-content {
+	min-height: 300px;	
+	padding: 60px;
+}

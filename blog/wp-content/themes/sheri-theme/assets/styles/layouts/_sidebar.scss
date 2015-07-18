@@ -1,0 +1,53 @@
+.sidebar {
+  text-align: left;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 20px 0 20px;
+  margin-bottom: 25px;
+  
+  a {
+    color: $text-secondary-color;
+    padding: 5px;
+    display: block;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 0px;
+    width: auto;
+    &:hover {
+        color: $text-color;	
+    }
+  }
+  .logo {
+    padding-left: 0px;
+    width: 50px;
+    
+    img {
+      width: 100%;
+      margin-left: 0px;
+      opacity: 1;	
+      transition: all 250ms ease-in-out;
+      &:hover {
+        opacity: .7;
+      }	
+    }
+  }
+  
+  .nav-title {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-weight: 700;
+  }
+  
+  .nav-projects {
+    list-style: none;
+    padding-left: 0px;
+    li {
+      padding-left:0px;
+      a {
+        font-size: .8em; 
+      }
+    } 
+  }
+}

@@ -1,31 +1,5 @@
 @import "common/_variables";
 
-main {
-  z-index: 20;	
-  background: url('../../assets/images/bg.png');	
-  background-repeat: repeat;
-  padding: 40px 0px 60px 0px;
-  margin-top: 250px;
-  position: relative;
-  width: 100% !important;
-  max-width: $max-width;
-}
-
-.main-container {
-  margin: 0;
-  max-width: none;
-  min-height: 750px;
-  background-color: rgba(255, 255, 255, .8);
-  z-index: 20;
-  width: calc(100% - #{$sidebar-width});
-  color: $text-color;
-}
-
-.main-content {
-	min-height: 300px;	
-	padding: 60px;
-}
-
 article {
   clear: both;
   max-width: 870px;
@@ -39,8 +13,6 @@ article {
     font-family: 'Mate', 'serif'; 
   }
   
- 
-  
   .tags {
     line-height: .75em;
     padding-left: 0px;
@@ -51,17 +23,17 @@ article {
       display: inline-block; 
       font-size: .8em;
       
+      &.list-title {
+          margin-right: .25em;
+        }
       
-      &.post-project {
-        //font-weight: 700; 
+      &.post-tag {
+        margin-right: .5em;
       }
+      
       
       &.post-tag, &.post-date{
         color: rgba(75, 75, 75, .7); 
-        
-        .list-title {
-          color: rgba(75, 75, 75, 1); 
-        }
       }
     }
     &.project-info {

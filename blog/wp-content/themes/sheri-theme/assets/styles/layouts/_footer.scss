@@ -1,0 +1,34 @@
+footer {
+  background: url('../../assets/images/bg.png');	
+  background-repeat: repeat;
+  table {
+    width: 70%;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+
+    font-size: .85em;
+    @extend .mate;
+
+    tr {
+      td {
+        a {
+          color: $text-secondary-color;
+
+          &:hover {
+              color: $text-color;	
+          }
+        }
+      }
+    }
+
+    .logo img {
+      width: 150px;	
+      opacity: 1;
+      transition: all 250ms ease-in-out;
+      &:hover {
+          opacity: .7;	
+      }
+    }
+  }
+}
