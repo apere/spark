@@ -8,10 +8,12 @@
       </li>
     </ul>
     <ul class = "tags">
-      
+      <li class="list-title">Tags: </li>
+      <?php the_tags('<li class = "post-tag">', ', ', '</li>'); ?>
     </ul>
   </header>
-  <div class="entry-summary">
+  <div class="post-content">
     <?php the_content(); ?>
   </div>
 </article>
+
