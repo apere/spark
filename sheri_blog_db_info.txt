@@ -1,0 +1,5 @@
+Sheri's MYSQL login info
+
+username: wpblog_admin
+password: coolGary1
+db name: blog_wp0
