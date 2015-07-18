@@ -45,7 +45,7 @@ function example_customizer( $wp_customize ) {
     $wp_customize->add_section(
         'custom_headers',
         array(
-            'title' => 'Custom Header Image',
+            'title' => 'Custom Header Images',
             'description' => 'This is where you can upload an image to be used as the header on the main blog page.',
             'priority' => 35,
         )
@@ -58,12 +58,30 @@ function example_customizer( $wp_customize ) {
           $wp_customize,
           'header-img-upload',
           array(
-              'label' => 'Image Upload',
+              'label' => 'Main Blog Header Image',
               'section' => 'custom_headers',
               'settings' => 'header-img-upload'
           )
       )
   );
+  
+  $categories =   $categories = get_categories('');
+  foreach ( $categories as $category ) { 
+      $wp_customize->add_setting( 'cat-' . $category->name . '-img' );
+ 
+      $wp_customize->add_control(
+          new WP_Customize_Upload_Control(
+              $wp_customize,
+              'cat-' . $category->name . '-img',
+              array(
+                  'label' => $category->name .' Category Header Image',
+                  'section' => 'custom_headers',
+                  'settings' => 'cat-' . $category->name . '-img'
+              )
+          )
+      );
+
+  }
 }
 add_action( 'customize_register', 'example_customizer' );
 

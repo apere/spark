@@ -7,12 +7,15 @@
         <div class = "subtitle"><?php echo(get_bloginfo( 'description' ));?></div>
       </div>
       <?php elseif( is_single() ) : ?>
-        <div class = "hero-image"></div>
+        <?php 
+          $categories = get_the_category();
+          $categories[0]->name
+        ?>
+        <div class = "hero-image" style="background-image:url('<?php echo get_theme_mod( 'cat-' . $categories[0]->name . '-img',  '/assets/images/default_hero.jpg' ); ?>');"></div>
         <div class = "hero-text">
         <div class = "title"><?php the_title(); ?></div>
         <div class = "subtitle">
           <?php 
-            $categories = get_the_category();
             foreach ( $categories as $category ) { 
                 echo $category->name; 
             }
