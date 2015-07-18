@@ -12,7 +12,7 @@
   <a class = "blog nav-title" href = "#">Tags</a>
   <ul class = "nav-projects">
     <?php
-      $posttags = get_the_tags();
+      $posttags = get_tags();
       if ($posttags) {
         foreach($posttags as $tag) {
           echo '<li class = "post-tag"><a href ='. get_tag_link($tag->term_id). '>' . $tag->name . '</a></li>'; 

@@ -22,11 +22,7 @@ use Roots\Sage\Wrapper;
       <div class="content row">
         <main class="main" role="main">
           <?php include Wrapper\template_path(); ?>
-           <?php if (Config\display_sidebar()) : ?>
-          <aside class="sidebar" role="complementary">
-            <?php include Wrapper\sidebar_path(); ?>
-          </aside><!-- /.sidebar -->
-        <?php endif; ?>
+          <?php include Wrapper\sidebar_path(); ?><!-- /.sidebar -->
         </main><!-- /.main -->
        
       </div><!-- /.content -->
