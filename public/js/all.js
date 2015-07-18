@@ -28,8 +28,12 @@ $( document ).ready(function() {
 		window.location.href = 'http://www.sheripark.com/archive/still-hanoi-move/';
 	});
 	
-	$('#today-fri-sat-sun-hero, #today-fri-sat-sun .project-info, #index-hero').on('click', function() {
+	$('#today-fri-sat-sun-hero, #today-fri-sat-sun .project-info').on('click', function() {
 		window.location.href = 'http://www.sheripark.com/portfolio/Today-Friday-Saturday-Sunday/index.html';
 	});
+  
+    $('#index-hero').on('click', function() {
+        window.location.href = 'https://www.indiegogo.com/projects/reorient-home-is-where#/story';
+    });
 });
 

@@ -126,7 +126,7 @@ body {
 }
 
 #index-hero .wrapper .hero-image {
-	background: url('../../public/images/today_friday_saturday_sunday/Friday/friday-friday-4.JPG');
+	background: url('../../public/images/REORIENT.jpg');
 	background-size: cover;
 	background-position-y: center;
 }
@@ -219,7 +219,9 @@ body {
 			}
 			
 			.subtitle {
-				margin-top: 10px;
+		      margin-top: 5px;
+              line-height: 30px;
+              width: 80%;
 			}
 		}
 	}
