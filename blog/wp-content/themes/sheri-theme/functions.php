@@ -28,3 +28,43 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+
+/**
+ * Adds the Customize page to the WordPress admin area
+ */
+function example_customizer_menu() {
+    add_theme_page( 'Customize', 'Customize', 'edit_theme_options', 'customize.php' );
+}
+add_action( 'admin_menu', 'example_customizer_menu' );
+
+/**
+ * Adds the individual sections, settings, and controls to the theme customizer
+ */
+function example_customizer( $wp_customize ) {
+    $wp_customize->add_section(
+        'custom_headers',
+        array(
+            'title' => 'Custom Header Image',
+            'description' => 'This is where you can upload an image to be used as the header on the main blog page.',
+            'priority' => 35,
+        )
+    );
+  
+  $wp_customize->add_setting( 'header-img-upload' );
+ 
+  $wp_customize->add_control(
+      new WP_Customize_Upload_Control(
+          $wp_customize,
+          'header-img-upload',
+          array(
+              'label' => 'Image Upload',
+              'section' => 'custom_headers',
+              'settings' => 'header-img-upload'
+          )
+      )
+  );
+}
+add_action( 'customize_register', 'example_customizer' );
+
+?>

@@ -1,13 +1,14 @@
 <header class="banner" role="banner">
   <div class = "wrapper">
-    <div class = "hero-image"></div>
-    <div class = "hero-text">
-      <?php if( is_home()) : ?>
-        <div class = "title">The Blog of Sheri Park</div>
-        <div class = "subtitle">
-          Join me on my travels as I collaborate with artists all over the globe.
-        </div>
+    <?php if( is_home()) : ?>
+      <div class = "hero-image" style="background-image:url('<?php echo get_theme_mod( 'header-img-upload', '' ); ?>');"></div>
+      <div class = "hero-text">
+        <div class = "title"><?php echo(get_bloginfo( 'name' ));?></div>
+        <div class = "subtitle"><?php echo(get_bloginfo( 'description' ));?></div>
+      </div>
       <?php elseif( is_single() ) : ?>
+        <div class = "hero-image"></div>
+        <div class = "hero-text">
         <div class = "title"><?php the_title(); ?></div>
         <div class = "subtitle">
           <?php 
@@ -17,8 +18,8 @@
             }
           ?>
         </div>
-      <?php endif; ?>
-    </div>
+      </div>
+    <?php endif; ?>
     <div class = "overlay"></div>
   </div>                      
 </header>
