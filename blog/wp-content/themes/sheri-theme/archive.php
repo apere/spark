@@ -2,13 +2,8 @@
   <?php $post = $posts[0]; $c=0;?>
   <?php while (have_posts()) : the_post(); ?>
 
-    <?php $c++;
-    if( !$paged && $c == 1) :?>
+    <?php $c++; ?>
       <?php  get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-
-    <?php else :?>
-      <?php  get_template_part('templates/content-compact', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-    <?php endif;?>
 
     <?php if( $c != count($posts)) :?>
       <hr>
@@ -22,3 +17,8 @@
   </div>
   <?php get_search_form(); ?>
 <?php endif; ?>
+
+
+
+
+

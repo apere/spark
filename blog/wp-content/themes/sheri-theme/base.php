@@ -21,8 +21,15 @@ use Roots\Sage\Wrapper;
     <div class="wrap container" role="document">
       <div class="content row">
         <main class="main" role="main">
-          <?php include Wrapper\template_path(); ?>
-          <?php include Wrapper\sidebar_path(); ?><!-- /.sidebar -->
+          <div class = "main-wrapper">
+            <div class = "main-container">
+              <div class = "main-content">
+                <?php include Wrapper\template_path(); ?>
+              </div>
+
+              <?php include Wrapper\sidebar_path(); ?><!-- /.sidebar -->
+            </div>
+          </div>
         </main><!-- /.main -->
        
       </div><!-- /.content -->

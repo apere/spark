@@ -1,13 +1,17 @@
 @import "common/_variables";
 
 .banner {
-  height: 250px;
+  height: $header-height;
   width: 100vw;
   position: fixed;
   top: 0px;
   left: 0px;
   z-index: -1;
   cursor: pointer;
+  
+  @media only screen and (max-width:450px) {
+    height: $header-small-height; 
+  }
   
   .wrapper {
     position: relative;
@@ -69,6 +73,9 @@
         margin-top: 5px;
         line-height: 30px;
         width: 80%;
+      }
+      @media only screen and (max-width:600px) {
+       min-width: 0px;
       }
     }     
   }

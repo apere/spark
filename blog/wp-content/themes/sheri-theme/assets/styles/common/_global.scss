@@ -6,6 +6,7 @@ html, html a {
 	font-smooth: always;
 }
 
+
 a {
 	color: $text-color;
 	text-decoration: none;
@@ -53,7 +54,17 @@ body {
 	font-weight: 100;
 	font-size: 40px;	
 	line-height: 52px;
-	
+    
+    @media only screen and (max-width:450px) and (min-width:400px) {
+      font-size: 36px;
+      line-height: 42px
+    }
+    
+    @media only screen and (max-width:400px) {
+      font-size: 32px;
+      line-height: 35px;
+    }
+  
 	&.small {
 		font-size: 22px;
 		line-height: 24px;
@@ -65,7 +76,19 @@ body {
 
 .subtitle {
 	@extend .mate;
-	font-size: 26px;	
+	font-size: 26px;
+  
+    @media only screen and (max-width:550px) and (min-width:400px) {
+      margin-top: .5em !important;
+      font-size: 22px;
+      line-height: 26px !important;
+    }
+  
+    @media only screen and (max-width:400px) {
+      margin-top: .5em !important;
+      font-size: 18px;
+      line-height: 26px !important;
+    }
 }
 
 .project {

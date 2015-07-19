@@ -3,7 +3,10 @@
 }
 
 [role=document] {
-  margin-top: 250px; 
+  margin-top: $header-height; 
+  @media only screen and (max-width:450px) {
+    margin-top: $header-small-height; 
+  }
 }
 
 main {
@@ -13,7 +16,23 @@ main {
   padding: 40px 0px 60px 0px;
   position: relative;
   width: 100% !important;
-  max-width: $max-width;
+  .main-wrapper {
+    max-width: $max-width;
+  }
+  
+  // small tablet and mobile phone
+  @media only screen and (max-width:600px) {
+    padding-top: $mobile-sidebar-height;
+  }
+  
+   @media only screen and (max-width:700px) and (min-width:500px) {
+    padding-bottom: 40px;
+   }
+  
+  @media only screen and (max-width:500px) {
+    padding-bottom: 20px;
+   }
+  
 }
 
 .main-container {
@@ -24,9 +43,24 @@ main {
   z-index: 20;
   width: calc(100% - #{$sidebar-width});
   color: $text-color;
+  
+  //tablet-ish
+  @media only screen and (max-width:900px) and (min-width:600px) {
+    width: calc(100% - #{$sidebar-small-width});
+  }
+  
+  // small tablet and mobile phone
+  @media only screen and (max-width:600px) {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
 }
 
 .main-content {
 	min-height: 300px;	
 	padding: 60px;
+  
+   @media only screen and (max-width:600px) {
+      padding: 20px; 
+   }
 }

@@ -1,6 +1,18 @@
 footer {
   background: url('../../assets/images/bg.png');	
   background-repeat: repeat;
+  padding-bottom: 5px;
+  
+  .foot-wrap {
+    width: calc(100% - #{$sidebar-width});
+    max-width: $max-width;
+    
+    //tablet-ish
+    @media only screen and (max-width:900px)  {
+      width: 100%;
+    }
+  }
+  
   table {
     width: 70%;
     max-width: 650px;
@@ -30,5 +42,24 @@ footer {
           opacity: .7;	
       }
     }
+    
+     @media only screen and (max-width:900px) {
+       width: calc(100% - 40px);
+       tr td {
+         vertical-align: bottom;
+       }  
+     }
+    
+    @media only screen and (max-width:500px) {
+       tr {
+          display: none;
+         &:first-child {
+            display: table-row; 
+           td {
+            min-width: 40%;
+           }
+         }
+       }
+     }
   }
 }
