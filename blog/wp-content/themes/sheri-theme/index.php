@@ -1,24 +1,41 @@
-<?php if (have_posts()) : ?>
-  <?php $post = $posts[0]; $c=0;?>
-  <?php while (have_posts()) : the_post(); ?>
+<?php
+wp_reset_postdata();
+global $post;
+ 
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+$my_items = array(
+    'post_type' => '',
+    'numberposts' => -1,
+    'orderby' => 'title',
+    'order' => 'ASC',
+    'posts_per_page'   => 10,
+    'paged' => $paged
+);
+ 
+$my_postlist = new WP_Query( $my_items );
+$c=0;
 
-    <?php $c++;
-    if( !$paged && $c == 1) :?>
-      <?php  get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
+if($my_postlist->have_posts()) : while($my_postlist->have_posts()) : $my_postlist->the_post();
+    $c++;
+    if( !$paged && $c == 1) :
+      get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format());
+   else :
+      get_template_part('templates/content-compact', get_post_type() != 'post' ? get_post_type() : get_post_format());
+   endif;
 
-    <?php else :?>
-      <?php  get_template_part('templates/content-compact', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
-    <?php endif;?>
+   if( $c != count($posts)) :
+      echo('<hr>');
+    endif;
+  endwhile; 
+  if ($my_postlist) : 
+    wp_reset_query(); 
+    wp_pagenavi( array( 'query' => $my_postlist) ); 
+    wp_reset_postdata(); 
+  endif;
 
-    <?php if( $c != count($posts)) :?>
-      <hr>
-    <?php endif; ?>
+else :
+  echo('<div class="alert alert-warning">Sorry, no results were found.</div>');
+  get_search_form();
+endif; 
 
-  <?php endwhile; ?>
-
-<?php else : ?>
-  <div class="alert alert-warning">
-    <?php _e('Sorry, no results were found.', 'sage'); ?>
-  </div>
-  <?php get_search_form(); ?>
-<?php endif; ?>
+?>
