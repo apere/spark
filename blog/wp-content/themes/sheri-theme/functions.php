@@ -65,6 +65,20 @@ function example_customizer( $wp_customize ) {
       )
   );
   
+  $wp_customize->add_setting( 'default-header-img' );
+ 
+  $wp_customize->add_control(
+      new WP_Customize_Upload_Control(
+          $wp_customize,
+          'default-header-img',
+          array(
+              'label' => 'Default Header Image',
+              'section' => 'custom_headers',
+              'settings' => 'default-header-img'
+          )
+      )
+  );
+  
   $categories =   $categories = get_categories('');
   foreach ( $categories as $category ) { 
       $wp_customize->add_setting( 'cat-' . $category->name . '-img' );
