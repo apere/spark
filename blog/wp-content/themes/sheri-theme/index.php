@@ -17,7 +17,7 @@ $c=0;
 
 if($my_postlist->have_posts()) : while($my_postlist->have_posts()) : $my_postlist->the_post();
     $c++;
-    if( !$paged && $c == 1) :
+    if( $c == 1) :
       get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format());
    else :
       get_template_part('templates/content-compact', get_post_type() != 'post' ? get_post_type() : get_post_format());

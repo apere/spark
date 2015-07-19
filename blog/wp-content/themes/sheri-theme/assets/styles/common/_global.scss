@@ -120,30 +120,16 @@ body {
 	}
 }
 
-.quote {
-	width: 70%;
-	margin: 0 auto;
-	margin-top: 80px;
-	margin-bottom: 80px;
-	font-style: italic;
-	text-align: left;
-	font-size: 22px;
-	line-height: 27px;
-	p {
-		margin-bottom: 20px;	
-	}
-	
-	.author {
-		margin-top: 15px;
-		font-size: 16px;
-		line-height: 22px;
-		.name {
-			
-			font-style: normal;
-			font-weight: 700;
-
-		}
-	}
+blockquote{
+  font-style: italic;
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+  .post-quote {
+    
+  }
 }
 
 .portfolio-link {
