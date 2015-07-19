@@ -56,7 +56,7 @@ article {
   
   .post-content {
     margin: 20px 0px;
-    img.full-image {
+    img.full-image, .feature-image {
       width: 100%; 
     }
     
@@ -66,6 +66,25 @@ article {
       margin: 1em 1em 4em 0px;
       max-width: 380px;
     }
+    
+    div.inline-image {    
+      img {
+        height: auto; 
+        float: left;
+        width: 50%; 
+        margin: 0em 1em 1em 0px;
+        max-width: 380px;
+      }
+    }
+    
+    .inline-image {
+        height: auto; 
+        float: left;
+        width: 50%; 
+        margin: .5em 1em 1em 0px;
+        max-width: 380px;
+      }
+      
     
     p {
       margin-top: 1em;

@@ -4,10 +4,9 @@ global $post;
  
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 $my_items = array(
-    'post_type' => '',
     'numberposts' => -1,
-    'orderby' => 'title',
-    'order' => 'ASC',
+    'orderby' => 'date',
+    'order' => 'DESC',
     'posts_per_page'   => 10,
     'paged' => $paged
 );
@@ -19,6 +18,8 @@ if($my_postlist->have_posts()) : while($my_postlist->have_posts()) : $my_postlis
     $c++;
     if( $c == 1) :
       get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format());
+   elseif( get_post_format() == 'image' ) :
+    get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format());
    else :
       get_template_part('templates/content-compact', get_post_type() != 'post' ? get_post_type() : get_post_format());
    endif;

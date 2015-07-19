@@ -20,6 +20,13 @@
     </ul>
   </header>
   <div class="post-content">
-    <?php the_excerpt(); ?>
+    <?php 
+      $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'feature-image' );
+      if( $image ) :
+        echo("<img src='" . $image[0] . "' class = 'feature-image'>");
+      endif;
+      the_excerpt(); 
+    ?>
+    <div class="spacer" style="clear: both;"></div>
   </div>
 </article>
