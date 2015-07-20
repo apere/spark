@@ -2,6 +2,7 @@
   <a class = "logo" href = "<?= esc_url(home_url('/')); ?>"><img src= "<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png"></a>
   <div class = "nav-links">
     <a class = "blog" href = "<?= esc_url(home_url('/')); ?>">Blog</a>
+    <a class = "blog" href = "<?= esc_url(home_url('/')); ?>/about/">About</a>
     <a class = "blog" href = "<?php echo(get_category_link(get_cat_ID("REORIENT"))); ?>">REORIENT</a>
     <a class = "blog" href = "http://www.sheripark.com/portfolio" id = "main-url">Portfolio</a>
   </div>

@@ -33,6 +33,16 @@
     }
     $subtitle = $cat;
 
+  elseif( is_page() ) :
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'feature-image' );
+    if(  !is_null($image) && !empty($image) && $image[0] && !is_null($image[0]) && !empty($image[0]) && $image[0] != "" && !is_numeric($image[0]) ) :
+      $heroImage = "background-image:url('" . $image[0] . "');";
+    else  :
+      $heroImage = "background-image:url('" . $default_header_image . "');";
+    endif;
+    $title = get_the_title();
+    $subtitle = "";
+
   elseif( is_category() ) :
     $heroImage = "background-image:url('" . get_theme_mod( 'cat-' . $categories[0]->name . '-img', $default_header_image ) . "');";
     $title = $categories[0]->name;
