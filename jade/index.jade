@@ -1,13 +1,16 @@
 extends layout.jade
 
+block hero-id
+	- var heroID = "index-hero"
 block hero-title
-	= "REORIENT"
+	| REORIENT
 block hero-subtitle
-	= "Art-making on a pilgrimage to friends around the globe to explore how place shapes home &amp; identity."
+	| Art-making on a pilgrimage to friends around the globe to explore how place shapes home &amp; identity.
 block content
 	include projects/homepage/today_fri_sat_sun.jade
 	hr
 	br
 	include projects/homepage/white_white_red.jade
 	hr
+	br
 	include projects/homepage/as_i_am_changing.jade

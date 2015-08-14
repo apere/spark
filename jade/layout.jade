@@ -13,7 +13,8 @@ html
 		include partials/_hero.jade
 		.main-wrapper
 			include partials/_nav.jade
-			.main-container
+			block main-container-id
+			.main-container(id= mainContainerID)
 				.content
 					block content
 			include partials/_footer.jade
