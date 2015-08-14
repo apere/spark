@@ -1,78 +1,46 @@
-html,
-html a {
-	-webkit-font-smoothing: antialiased !important;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
-	-webkit-text-stroke: 1px transparent;
-	font-smooth: always;
-}
-
-a {
-	color: $text-color;
-	text-decoration: none;
-	transition: all 250ms ease-in-out;
-	&:hover {
-		color: $text-secondary-color;
-	}
-}
-
 img {
 	max-width: 100%;
 	height: auto;
+  @extend %transitions;
 }
 
 .main-wrapper {
-	z-index: 20;
+  position: relative;
 	background: url('../../public/images/bg3ab.png');
 	background-repeat: repeat;
-	padding: 25px 0px 60px 0px;
+	padding: 25px 0px $content-padding 0px;
 	margin-top: $hero-height;
-	position: relative;
 }
 
 .main-container {
 	margin: 0 auto;
-	max-width: 1200px;
-	min-height: 100vh;
+  width: calc(100% - #{$main-container-margin} - #{$main-container-margin});
+	max-width: $max-main-container-width;
+	min-height: $min-main-container-height;
 	background-color: $center-background-color;
-	z-index: 20;
-	width: calc(100% - 200px);
-	color: $text-color;
 }
 
+// *****
+// * Navigation
+// *****
 .logo-nav {
 	position: inherit;
-	text-align: center;
 	margin-bottom: 25px;
-	a {
-		color: $text-secondary-color;
-		padding: 5px 10px;
-		padding-right: 20px;
-		display: inline-block;
-		vertical-align: middle;
-		border-bottom: 0px;
-		text-decoration: none;
-		width: auto;
-		&:first-of-type {
-			padding-right: 10px;
-		}
-		transition: all 250ms ease-in-out;
-		&:hover {
-			color: $text-color;
-		}
-	}
+  
+  li {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+  
 	.logo {
 		max-width: 350px;
 		display: block;
 		width: auto;
 		margin: 0 auto;
-		text-decoration: underline;
-		font-size: 26px;
-		text-transform: capitalize;
 		img {
-			max-width: 50px;
+			max-width: $logo-width;
 			margin-left: -21px;
 			opacity: 1;
-			transition: all 250ms ease-in-out;
 			&:hover {
 				opacity: .7;
 			}
@@ -80,62 +48,62 @@ img {
 	}
 }
 
+// *****
+// * Header - Custom Images
+// *****
 #genesis-dreamtime-hero .wrapper .hero-image {
-	background: url('../../public/images/genesis_and_dreamtime/03_touch_in_the_image.JPG');
+	background: image-url('genesis_and_dreamtime/03_touch_in_the_image.JPG');
 }
 
 #archive-hero .wrapper .hero-image {
-	background: url('../../public/images/still_hanoi_move/02park_landscapeVn2011_extra3.JPG');
+	background: image-url('still_hanoi_move/02park_landscapeVn2011_extra3.JPG');
 }
 
 #stack-through-hero .wrapper .hero-image {
-	background: url('../../public/images/stack_through/03_patterns_of_problem.jpg');
+	background: image-url('stack_through/03_patterns_of_problem.jpg');
 }
 
 #still-hanoi-hero .wrapper .hero-image {
-	background: url('../../public/images/still_hanoi_move/08park_xtragood4.JPG');
-	background-size: cover;
+	background: image-url('still_hanoi_move/08park_xtragood4.JPG');
 }
 
 #as-i-am-changing-hero .wrapper .hero-image {
-	background: url('../../public/images/as_i_am_changing/04caged.jpg');
+	background: image-url('as_i_am_changing/04caged.jpg');
 	background-size: 110%;
 	background-position: center;
 }
 
 #index-hero .wrapper .hero-image {
-	background: url('../../public/images/REORIENT.jpg');
-	background-size: cover;
+	background: image-url('REORIENT.jpg');
 	background-position-y: center;
 }
 
 #white-white-red-hero .wrapper .hero-image {
-	background: url('../../public/images/white_white_red/home_grown/pop-2.jpeg');
-	background-size: cover;
+	background: image-url('white_white_red/home_grown/pop-2.jpeg');
 }
 
 #portfolio-hero .wrapper .hero-image {
-	background: url('../../public/images/white_white_red/flight/beginning.jpg');
-	background-size: cover;
+	background: image-url('white_white_red/flight/beginning.jpg');
 }
 
 #about-hero .wrapper .hero-image {
-	background: url('../../public/images/gen/sheri.jpg');
-	background-size: cover;
+	background: image-url('gen/sheri.jpg');
 }
 
 #today-fri-sat-sun-hero .wrapper .hero-image {
-	background: url('../../public/images/today_friday_saturday_sunday/Sunday/sunday-2.jpg');
-	background-size: cover;
+	background: image-url('today_friday_saturday_sunday/Sunday/sunday-2.jpg');
 	background-position-y: center;
 }
 
+// *****
+// * Header
+// *****
 .hero {
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	left: 0px;
 	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+  width: 100%;
 	cursor: pointer;
 	.wrapper {
 		position: relative;
@@ -145,7 +113,6 @@ img {
 		&:hover {
 			.hero-text {
 				transform: scale(1.04, 1.04);
-				color: white;
 			}
 			.overlay {
 				background-color: $background-trans-color-dark;
@@ -159,35 +126,29 @@ img {
 			top: 0px;
 			left: 0;
 			z-index: 10;
+      @extend %transitions;
 		}
 		.hero-image {
 			background-size: cover;
 			background-position: center;
 			z-index: 5;
-			transition: all 250ms ease-in-out;
 		}
 		.overlay {
-			transition: all 250ms ease-in-out;
 			background-color: $background-trans-color;
 		}
 		.hero-text {
+      z-index: 15;
 			position: absolute;
 			width: 100%;
 			min-width: 600px;
 			bottom: 15%;
 			left: 0;
-			z-index: 15;
-			transition: all 250ms ease-in-out;
-			color: $text-header-color;
 			.title,
 			.subtitle {
-				text-align: center;
 				margin: 0 auto;
-				transition: all 250ms ease-in-out;
 			}
 			.subtitle {
 				margin-top: 5px;
-				line-height: 30px;
 				width: 80%;
 			}
 		}
@@ -195,36 +156,25 @@ img {
 }
 
 .content {
-	min-height: 300px;
-	padding: 60px;
+	min-height: $min-main-container-height;
+	padding: $content-padding;
 }
 
 .project {
 	&.top-margin {
-		margin-top: 4em;
+		margin-top: $project-margin;
 	}
 	.project-info {
-		margin-bottom: 4em;
+		margin-bottom: $project-margin;
 		cursor: pointer;
-		&:hover {
-			.title {
-				color: #262626;
-			}
-		}
 		&.margin-top {
 			margin-top: 40px;
-		}
-		.title {
-			transition: all 250ms ease-in-out;
 		}
 	}
 	.row {
 		width: auto;
 		margin: 0 auto;
-		margin-bottom: 60px;
-		&.center {
-			text-align: center;
-		}
+		margin-bottom: $content-padding;
 		&.no-bottom {
 			margin-bottom: 0px;
 		}
@@ -273,7 +223,6 @@ img {
 		margin: 0 auto;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		text-align: center;
 		display: inline-block;
 		vertical-align: top;
 		&.one {
@@ -290,9 +239,6 @@ img {
 				height: auto;
 				margin: 0 auto;
 			}
-			div {
-				text-align: right;
-			}
 		}
 		&.two {
 			&:first-of-type {
@@ -305,9 +251,6 @@ img {
 				height: auto;
 				margin: 0 auto;
 			}
-			div {
-				text-align: right;
-			}
 		}
 		&.three {
 			width: 29%;
@@ -317,12 +260,6 @@ img {
 				height: auto;
 				margin: 0 auto;
 			}
-			div {
-				text-align: right;
-			}
-		}
-		.item-title {
-			font-style: italic;
 		}
 	}
 }
@@ -340,7 +277,6 @@ img {
 .poem {
 	width: 275px;
 	margin: 0 auto;
-	line-height: 2.2em;
 	margin-top: 4em;
 	margin-bottom: 6em;
 	margin-left: calc(50% - 87px);
@@ -354,8 +290,6 @@ img {
 	.label {
 		margin-bottom: .5em;
 		margin-top: 3em;
-		text-transform: uppercase;
-		font-weight: 700;
 	}
 }
 
@@ -370,33 +304,17 @@ img {
 	margin-top: 3em;
 	margin-bottom: 3.5em;
 	.label {
-		font-size: .8em;
 		margin-bottom: -.9em;
-	}
-	ul {
-		li {
-			font-size: 1.1em;
-			&.ex-title {
-				font-weight: 600;
-				font-size: 1.5em;
-				line-height: 2.2em;
-			}
-			.small {}
-			em {
-				font-style: italic;
-			}
-		}
 	}
 }
 
 .icon {
 	max-width: 20px;
 	height: auto;
-	height: auto;
 	cursor: pointer;
 	margin-top: 5px;
 	opacity: 1;
-	transition: all 250ms ease-in-out;
+  @extend %transitions;
 	&:hover {
 		opacity: .7;
 	}
@@ -412,22 +330,9 @@ footer {
 		margin: 0 auto;
 		margin-top: 4em;
 		margin-bottom: 1.5em;
-		font-size: .85em;
-		@extend .mate;
-		tr {
-			td {
-				a {
-					color: $text-secondary-color;
-					&:hover {
-						color: $text-color;
-					}
-				}
-			}
-		}
 		.logo img {
 			width: 150px;
 			opacity: 1;
-			transition: all 250ms ease-in-out;
 			&:hover {
 				opacity: .7;
 			}
