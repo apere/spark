@@ -1,126 +1,69 @@
-doctype html
-head
-  link(rel='shortcut icon', href='/favicon.ico', type='image/x-icon')
-  link(rel='icon', href='/favicon.ico', type='image/x-icon')
-  link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic|Mate:400,400italic', rel='stylesheet', type='text/css')
-  link(rel='stylesheet', type='text/css', href='/public/css/colors.css')
-  link(rel='stylesheet', type='text/css', href='/public/css/structure.css')
-  link(rel='stylesheet', type='text/css', href='/public/css/typography.css')
-  script(src='/public/vendor/jquery.js')
-  script(src='/public/vendor/jquery.lazyload.js')
-  script(src='/public/vendor/handlebars.js')
-  script(src='/public/js/all.js')
-  title SheriPark.com
-#genesis-dreamtime-hero.hero
-  .wrapper
-    .hero-image
-    .hero-text
-      .title Genesis & Dreamtime
-      .subtitle oil on canvas and watercolors
-    .overlay
-.main-wrapper
-  .logo-nav
-    a.logo(href='http://www.sheripark.com')
-      img.lazy(data-original='/public/images/gen/logo.png')
-    a.about-link(href='/about/') About
-    a.blog(href='/portfolio/') Portfolio
-    a.blog.active(href='/archive/') Archive
-  .main-container
-    .content
-      #genesis-dreamtime.project
-        .project-info
-          .title Genesis & Dreamtime
-          .medium oil on canvas and watercolors
-          .year 2011—2012
-        .statement
-          .label STATEMENT
-          p
-            | While my current work is interdisciplinary, my early work was almost exclusively painting. In 
-            em Genesis & Dreamtime
-            | , I developed my own abstract symbols to create paintings based on the Judaeo-Christian creation narrative. The forms I developed, inspired by cellular biology and oceanic forms, as well as the emphasis on the growth process, shaped my later work.
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/genesis_and_dreamtime/01_void.JPG')
-            .item-info
-              .item-title Void
-              .item-dimensions 28" x 28"
-              .item-medium oil on canvas
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/genesis_and_dreamtime/02_pull.JPG')
-            .item-info
-              .item-title Pull
-              .item-dimensions 24 3/4" x 16 5/8"
-              .item-medium oil on canvas
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/genesis_and_dreamtime/03_touch_in_the_image.JPG')
-            .item-info
-              .item-title Touch (In the Image)
-              .item-dimensions 48" x 58"
-              .item-medium oil on canvas
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/genesis_and_dreamtime/04_birth_over_the_waters.jpg')
-            .item-info
-              .item-title Birth (Over the Waters)
-              .item-dimensions 60" x 53"
-              .item-medium oil on canvas
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/genesis_and_dreamtime/05_choke_hide.JPG')
-            .item-info
-              .item-title Choke (Hide)
-              .item-dimensions 12" x 18"
-              .item-medium watercolor
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/genesis_and_dreamtime/06_IMG_0529.JPG')
-            .item-info
-              .item-title Day 3
-              .item-dimensions
-              .item-medium
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/genesis_and_dreamtime/07_IMG_0530.JPG')
-            .item-info
-              .item-title Day 3–4
-              .item-dimensions
-              .item-medium
-  footer
-    table
-      tbody
-        tr
-          td
-            a.logo(href='http://www.sheripark.com')
-              img.lazy(data-original='/public/images/gen/logo2.png')
-          td
-            a.black(href='/portfolio/') Portfolio
-          td
-            a.black(href='/archive/') Archive
-          td Blog
-        tr
-          td
-            a(href='mailto:info@sheripark.com') info [at] sheripark.com
-          td
-            a(href='/portfolio/white-white-red/') White White Red
-          td
-            a(href='/archive/still-hanoi-move/') Still Hanoi Move
-          td
-        tr
-          td
-            a(href='mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your slow mail. My name is   _________ My address is ___________.') [ Slow ]
-            |  or  
-            a(href='mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your fast mail. My name is   _________. My email address is ___________.') [ Fast ]
-            |  Newsletter
-          td
-            a(href='/portfolio/as-i-am-changing/') As I Am, Changing
-          td
-            a(href='/archive/stack-through/') stack through
-          td
-        tr
-          td
-          td
-          td
-            a(href='/archive/genesis-and-dreamtime/') Genesis and Dreamtime
-          td
+extends ../../layout.jade
+
+block hero-id
+	- var heroID = "genesis-dreamtime-hero"
+block hero-title
+	| Genesis & Dreamtime
+block hero-subtitle
+	| oil on canvas and watercolors
+block content
+	#genesis-dreamtime.project
+		.project-info
+			.title Genesis & Dreamtime
+			.medium oil on canvas and watercolors
+			.year 2011&#8212;2012
+		.statement
+			.label STATEMENT
+			p
+				| While my current work is interdisciplinary, my early work was almost exclusively painting. In 
+				em Genesis & Dreamtime
+				| , I developed my own abstract symbols to create paintings based on the Judaeo-Christian creation narrative. The forms I developed, inspired by cellular biology and oceanic forms, as well as the emphasis on the growth process, shaped my later work.
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/genesis_and_dreamtime/01_void.JPG')
+				.item-info
+					.item-title Void
+					.item-dimensions 28" x 28"
+					.item-medium oil on canvas
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/genesis_and_dreamtime/02_pull.JPG')
+				.item-info
+					.item-title Pull
+					.item-dimensions 24 3/4" x 16 5/8"
+					.item-medium oil on canvas
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/genesis_and_dreamtime/03_touch_in_the_image.JPG')
+				.item-info
+					.item-title Touch (In the Image)
+					.item-dimensions 48" x 58"
+					.item-medium oil on canvas
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/genesis_and_dreamtime/04_birth_over_the_waters.jpg')
+				.item-info
+					.item-title Birth (Over the Waters)
+					.item-dimensions 60" x 53"
+					.item-medium oil on canvas
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/genesis_and_dreamtime/05_choke_hide.JPG')
+				.item-info
+					.item-title Choke (Hide)
+					.item-dimensions 12" x 18"
+					.item-medium watercolor
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/genesis_and_dreamtime/06_IMG_0529.JPG')
+				.item-info
+					.item-title Day 3
+					.item-dimensions
+					.item-medium
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/genesis_and_dreamtime/07_IMG_0530.JPG')
+				.item-info
+					.item-title Day 3&#8211;4
+					.item-dimensions
+					.item-medium

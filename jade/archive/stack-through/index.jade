@@ -1,102 +1,45 @@
-doctype html
-head
-  link(rel='shortcut icon', href='/favicon.ico', type='image/x-icon')
-  link(rel='icon', href='/favicon.ico', type='image/x-icon')
-  link(href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic|Mate:400,400italic', rel='stylesheet', type='text/css')
-  link(rel='stylesheet', type='text/css', href='/public/css/colors.css')
-  link(rel='stylesheet', type='text/css', href='/public/css/structure.css')
-  link(rel='stylesheet', type='text/css', href='/public/css/typography.css')
-  script(src='/public/vendor/jquery.js')
-  script(src='/public/vendor/jquery.lazyload.js')
-  script(src='/public/vendor/handlebars.js')
-  script(src='/public/js/all.js')
-  title SheriPark.com
-#stack-through-hero.hero
-  .wrapper
-    .hero-image
-    .hero-text
-      .title stack through
-      .subtitle acrylic on catalog cards
-    .overlay
-.main-wrapper
-  .logo-nav
-    a.logo(href='http://www.sheripark.com')
-      img.lazy(data-original='/public/images/gen/logo.png')
-    a.about-link(href='/about/') About
-    a.blog(href='/portfolio/') Portfolio
-    a.blog.active(href='/archive/') Archive
-  .main-container
-    .content
-      #stack-through.project
-        .project-info
-          .title stack through
-          .medium acrylic on catalog cards
-          .year 2011
-        .statement
-          .label STATEMENT
-          p
-            | This project was an early venture into creating work out of found objects from my local community, a method I am currently pursuing with 
-            em YESTERDAY, TODAY, TOMORROW: glory
-            | .  These catalog card cut outs also led me to the cut out elements of my undergraduate show, 
-            em As I Am, Changing
-            | , as well as other explorations of layers of overlapping text, as 
-            em with WHITE WHITE RED: living woman
-            | .
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/stack_through/01_see.jpg')
-            .item-info
-              .item-title see
-              .item-dimensions 3" x 4.75" x 3.5"
-              .item-medium acrylic on catalog cards
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/stack_through/02_children_of_disorg.jpg')
-            .item-info
-              .item-title freedom
-              .item-dimensions 3" x 4.75" x 3.5"
-              .item-medium acrylic on catalog cards
-        .row.center.top-margin
-          .project-item.one
-            img.lazy(data-original='/public/images/stack_through/03_patterns_of_problem.jpg')
-            .item-info
-              .item-title patterns
-              .item-dimensions 3" x 4.75" x 3.5"
-              .item-medium acrylic on catalog cards
-  footer
-    table
-      tbody
-        tr
-          td
-            a.logo(href='http://www.sheripark.com')
-              img.lazy(data-original='/public/images/gen/logo2.png')
-          td
-            a.black(href='/portfolio/') Portfolio
-          td
-            a.black(href='/archive/') Archive
-          td Blog
-        tr
-          td
-            a(href='mailto:info@sheripark.com') info [at] sheripark.com
-          td
-            a(href='/portfolio/white-white-red/') White White Red
-          td
-            a(href='/archive/still-hanoi-move/') Still Hanoi Move
-          td
-        tr
-          td
-            a(href='mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your slow mail. My name is   _________ My address is ___________.') [ Slow ]
-            |  or  
-            a(href='mailto:info@sheripark.com?subject=fast%20mail&body=Hi Sheri, I would love to sign up for your fast mail. My name is   _________. My email address is ___________.') [ Fast ]
-            |  Newsletter
-          td
-            a(href='/portfolio/as-i-am-changing/') As I Am, Changing
-          td
-            a(href='/archive/stack-through/') stack through
-          td
-        tr
-          td
-          td
-          td
-            a(href='/archive/genesis-and-dreamtime/') Genesis and Dreamtime
-          td
+extends ../../layout.jade
+
+block hero-id
+	- var heroID = "stack-through-hero"
+block hero-title
+	| stack through
+block hero-subtitle
+	| acrylic on catalog cards
+block content
+	#stack-through.project
+		.project-info
+			.title stack through
+			.medium acrylic on catalog cards
+			.year 2011
+		.statement
+			.label STATEMENT
+			p
+				| This project was an early venture into creating work out of found objects from my local community, a method I am currently pursuing with 
+				em YESTERDAY, TODAY, TOMORROW: glory
+				| .  These catalog card cut outs also led me to the cut out elements of my undergraduate show, 
+				em As I Am, Changing
+				| , as well as other explorations of layers of overlapping text, as 
+				em with WHITE WHITE RED: living woman
+				| .
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/stack_through/01_see.jpg')
+				.item-info
+					.item-title see
+					.item-dimensions 3" x 4.75" x 3.5"
+					.item-medium acrylic on catalog cards
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/stack_through/02_children_of_disorg.jpg')
+				.item-info
+					.item-title freedom
+					.item-dimensions 3" x 4.75" x 3.5"
+					.item-medium acrylic on catalog cards
+		.row.center.top-margin
+			.project-item.one
+				img.lazy(data-original='/public/images/stack_through/03_patterns_of_problem.jpg')
+				.item-info
+					.item-title patterns
+					.item-dimensions 3" x 4.75" x 3.5"
+					.item-medium acrylic on catalog cards

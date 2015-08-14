@@ -25,7 +25,7 @@ img {
 	background: url('../../public/images/bg3ab.png');
 	background-repeat: repeat;
 	padding: 25px 0px 60px 0px;
-	margin-top: 800px;
+	margin-top: $hero-height;
 	position: relative;
 }
 
@@ -130,7 +130,6 @@ img {
 	background-position-y: center;
 }
 
-$hero-height: 95vh;
 .hero {
 	width: 100%;
 	position: fixed;
