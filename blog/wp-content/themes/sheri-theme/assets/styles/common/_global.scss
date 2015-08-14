@@ -1,7 +1,7 @@
 // Typography
 html, html a {
 	-webkit-font-smoothing: antialiased !important;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);	
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	-webkit-text-stroke: 1px transparent;
 	font-smooth: always;
 }
@@ -11,27 +11,27 @@ a {
 	color: $text-color;
 	text-decoration: none;
 	transition: all 250ms ease-in-out;
-	
+
 	&:hover {
-      color: $text-secondary-color;	
+      color: $text-secondary-color;
       text-decoration: none;
 	}
 }
 
 .header-text {
-	color: $text-header-color;	
+	color: $text-header-color;
 }
 
 .header-sub-text {
-	color: $text-header-secondary-color;	
+	color: $text-header-secondary-color;
 }
 
 .main-text {
-	color: $text-color;	
+	color: $text-color;
 }
 
 .secondary-text {
-	color: $text-secondary-color;	
+	color: $text-secondary-color;
 }
 
 .mate {
@@ -52,19 +52,19 @@ body {
 .title {
 	@extend .mate;
 	font-weight: 100;
-	font-size: 40px;	
+	font-size: 40px;
 	line-height: 52px;
-    
+
     @media only screen and (max-width:450px) and (min-width:400px) {
       font-size: 36px;
       line-height: 42px
     }
-    
+
     @media only screen and (max-width:400px) {
       font-size: 32px;
       line-height: 35px;
     }
-  
+
 	&.small {
 		font-size: 22px;
 		line-height: 24px;
@@ -77,13 +77,13 @@ body {
 .subtitle {
 	@extend .mate;
 	font-size: 26px;
-  
+
     @media only screen and (max-width:550px) and (min-width:400px) {
       margin-top: .5em !important;
       font-size: 22px;
       line-height: 26px !important;
     }
-  
+
     @media only screen and (max-width:400px) {
       margin-top: .5em !important;
       font-size: 18px;
@@ -95,28 +95,28 @@ body {
 	.project-info {
 		.title, .medium, .year {
 			@extend .mate;
-			color: $text-secondary-color;	
+			color: $text-secondary-color;
 		}
-		
+
 		.medium, .year {
-			font-size: 26px;	
+			font-size: 26px;
 			line-height: 28px;
 		}
 	}
 }
 
 .statement {
-	
+
 	em {
 		font-style: italic;
 	}
-	
-	
-	.label {	
+
+
+	.label {
 	}
-	
+
 	p {
-		@extend .source-sans;	
+		@extend .source-sans;
 	}
 }
 
@@ -128,33 +128,38 @@ blockquote{
   border: none;
   font-size: inherit;
   .post-quote {
-    
+
   }
 }
 
 .portfolio-link {
-	text-align: right;	
+	text-align: right;
 }
 
 a.black {
 	color: black;
-	
+
 	&:hover {
 		color: $text-secondary-color;
-	}	
-}	
+	}
+}
 
 
 #about .statement {
 	margin-bottom: 1em;
-	
+
 	&:first-of-type {
-		margin-top: 2em;	
+		margin-top: 2em;
 	}
 }
 
 hr {
-  clear: both; 
+  clear: both;
   margin-top: 3em;
   margin-bottom: 3em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

@@ -4479,6 +4479,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/assets\/css\/editor-style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/css\/editor-style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -14857,6 +14866,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/public\/bg3ab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71302,
+		"inputAbbreviatedPath": "\/public\/bg3ab.png",
+		"outputAbbreviatedPath": "\/public\/bg3ab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/css\/colors.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -15009,12 +15029,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 71288,
+		"initialSize": 71302,
 		"inputAbbreviatedPath": "\/public\/images\/bg3ab.png",
 		"outputAbbreviatedPath": "\/public\/images\/bg3ab.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/gen\/logo.png": {
 		"fileType": 32768,
@@ -15137,13 +15157,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/reorient.jpg": {
+	"\/public\/images\/REORIENT.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 86074,
-		"inputAbbreviatedPath": "\/public\/images\/reorient.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/reorient.jpg",
+		"inputAbbreviatedPath": "\/public\/images\/REORIENT.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/REORIENT.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16041,7 +16061,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "spark",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_darkGray"
 	},
 "projectSettings": {

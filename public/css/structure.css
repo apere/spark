@@ -1,7 +1,7 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ /* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -130,7 +130,8 @@ a.black {
   #about .statement:first-of-type {
     margin-top: 2em; }
 
-html, html a {
+html,
+html a {
   -webkit-font-smoothing: antialiased !important;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   -webkit-text-stroke: 1px transparent;
@@ -143,6 +144,10 @@ a {
   a:hover {
     color: rgba(75, 75, 75, 0.7); }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 .main-wrapper {
   z-index: 20;
   background: url("../../public/images/bg3ab.png");
@@ -154,8 +159,8 @@ a {
 .main-container {
   margin: 0 auto;
   max-width: 1200px;
-  min-height: 750px;
-  background-color: rgba(255, 255, 255, 0.8);
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.85);
   z-index: 20;
   width: calc(100% - 200px);
   color: #4b4b4b; }
@@ -244,17 +249,18 @@ a {
   .hero .wrapper {
     position: relative;
     width: 100%;
-    height: 750px;
+    height: 95vh;
     background-color: rgba(36, 36, 36, 0.4); }
     .hero .wrapper:hover .hero-text {
       transform: scale(1.04, 1.04);
       color: white; }
     .hero .wrapper:hover .overlay {
       background-color: rgba(36, 36, 36, 0.6); }
-    .hero .wrapper .hero-image, .hero .wrapper .overlay {
+    .hero .wrapper .hero-image,
+    .hero .wrapper .overlay {
       position: absolute;
       width: 100%;
-      height: 750px;
+      height: 95vh;
       top: 0px;
       left: 0;
       z-index: 10; }
@@ -275,7 +281,8 @@ a {
       z-index: 15;
       transition: all 250ms ease-in-out;
       color: #f4f1f1; }
-      .hero .wrapper .hero-text .title, .hero .wrapper .hero-text .subtitle {
+      .hero .wrapper .hero-text .title,
+      .hero .wrapper .hero-text .subtitle {
         text-align: center;
         margin: 0 auto;
         transition: all 250ms ease-in-out; }
@@ -347,7 +354,8 @@ a {
       width: 85%; }
     .project .project-item.one.medium {
       width: 50%; }
-    .project .project-item.one img, .project .project-item.one div {
+    .project .project-item.one img,
+    .project .project-item.one div {
       width: 100%;
       height: auto;
       margin: 0 auto; }
@@ -357,7 +365,8 @@ a {
     width: 40%; }
     .project .project-item.two:first-of-type {
       margin-right: 5%; }
-    .project .project-item.two img, .project .project-item.two div {
+    .project .project-item.two img,
+    .project .project-item.two div {
       width: 100%;
       height: auto;
       margin: 0 auto; }
@@ -365,7 +374,8 @@ a {
       text-align: right; }
   .project .project-item.three {
     width: 29%; }
-    .project .project-item.three img, .project .project-item.three div {
+    .project .project-item.three img,
+    .project .project-item.three div {
       width: 100%;
       height: auto;
       margin: 0 auto; }
@@ -374,7 +384,8 @@ a {
   .project .project-item .item-title {
     font-style: italic; }
 
-#about .project-info, #about .statement {
+#about .project-info,
+#about .statement {
   margin: 0 5%; }
 #about .project-info {
   margin-bottom: 1em; }
@@ -397,27 +408,25 @@ a {
     margin-top: 3em;
     text-transform: uppercase;
     font-weight: 700; }
-
-#white-white-red .current-exhibit {
-  margin: 0 auto;
-  width: 70%;
-  margin-bottom: 4em; }
-
-.current-exhibit {
-  margin: 0 5%;
-  margin-top: 3em;
-  margin-bottom: 3.5em; }
-  .current-exhibit .label {
-    font-size: .8em;
-    margin-bottom: -.9em; }
-  .current-exhibit ul li {
-    font-size: 1.1em; }
-    .current-exhibit ul li.ex-title {
-      font-weight: 600;
-      font-size: 1.5em;
-      line-height: 2.2em; }
-    .current-exhibit ul li em {
-      font-style: italic; }
+  .cv #white-white-red .current-exhibit {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 4em; }
+  .cv .current-exhibit {
+    margin: 0 5%;
+    margin-top: 3em;
+    margin-bottom: 3.5em; }
+    .cv .current-exhibit .label {
+      font-size: .8em;
+      margin-bottom: -.9em; }
+    .cv .current-exhibit ul li {
+      font-size: 1.1em; }
+      .cv .current-exhibit ul li.ex-title {
+        font-weight: 600;
+        font-size: 1.5em;
+        line-height: 2.2em; }
+      .cv .current-exhibit ul li em {
+        font-style: italic; }
 
 .icon {
   max-width: 20px;
