@@ -1,7 +1,3 @@
- /* Welcome to Compass.
-* In this file you should write your main styles. (or centralize your imports)
-* Import this file using the following HTML or equivalent:
-* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,87 +45,6 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-.header-text {
-  color: #f4f1f1; }
-
-.header-sub-text {
-  color: #c3c3c3; }
-
-.main-text {
-  color: #4b4b4b; }
-
-.secondary-text {
-  color: rgba(75, 75, 75, 0.7); }
-
-.mate, .title, .subtitle, .project .project-info .title, .project .project-info .medium, .project .project-info .year, footer table {
-  font-family: 'Mate', serif; }
-
-.source-sans, body, .statement p {
-  font-family: 'Source Sans Pro', sans-serif; }
-
-body {
-  font-size: 16px;
-  line-height: 20px; }
-
-.title {
-  font-weight: 100;
-  font-size: 40px;
-  line-height: 52px; }
-  .title.small {
-    font-size: 22px;
-    line-height: 24px;
-    margin-left: 5%;
-    margin-top: 6em;
-    max-width: 70%; }
-
-.subtitle {
-  font-size: 26px; }
-
-.project .project-info .title, .project .project-info .medium, .project .project-info .year {
-  color: rgba(75, 75, 75, 0.7); }
-.project .project-info .medium, .project .project-info .year {
-  font-size: 26px;
-  line-height: 28px; }
-
-.statement em {
-  font-style: italic; }
-
-.quote {
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  font-style: italic;
-  text-align: left;
-  font-size: 22px;
-  line-height: 27px; }
-  .quote p {
-    margin-bottom: 20px; }
-  .quote .author {
-    margin-top: 15px;
-    font-size: 16px;
-    line-height: 22px; }
-    .quote .author .name {
-      font-style: normal;
-      font-weight: 700; }
-
-.portfolio-link {
-  text-align: right; }
-
-a.black {
-  color: black; }
-  a.black:hover {
-    color: rgba(75, 75, 75, 0.7); }
-
-#about .statement {
-  margin-bottom: 1em; }
-  #about .statement:first-of-type {
-    margin-top: 2em; }
-
 html,
 html a {
   -webkit-font-smoothing: antialiased !important;
@@ -140,7 +55,8 @@ html a {
 a {
   color: #4b4b4b;
   text-decoration: none;
-  transition: all 250ms ease-in-out; }
+  -webkit-transition: all 250ms ease-in-out;
+          transition: all 250ms ease-in-out; }
   a:hover {
     color: rgba(75, 75, 75, 0.7); }
 
@@ -178,7 +94,8 @@ img {
     border-bottom: 0px;
     text-decoration: none;
     width: auto;
-    transition: all 250ms ease-in-out; }
+    -webkit-transition: all 250ms ease-in-out;
+            transition: all 250ms ease-in-out; }
     .logo-nav a:first-of-type {
       padding-right: 10px; }
     .logo-nav a:hover {
@@ -195,7 +112,8 @@ img {
       max-width: 50px;
       margin-left: -21px;
       opacity: 1;
-      transition: all 250ms ease-in-out; }
+      -webkit-transition: all 250ms ease-in-out;
+              transition: all 250ms ease-in-out; }
       .logo-nav .logo img:hover {
         opacity: .7; }
 
@@ -252,7 +170,9 @@ img {
     height: 95vh;
     background-color: rgba(36, 36, 36, 0.4); }
     .hero .wrapper:hover .hero-text {
-      transform: scale(1.04, 1.04);
+      -webkit-transform: scale(1.04, 1.04);
+          -ms-transform: scale(1.04, 1.04);
+              transform: scale(1.04, 1.04);
       color: white; }
     .hero .wrapper:hover .overlay {
       background-color: rgba(36, 36, 36, 0.6); }
@@ -268,9 +188,11 @@ img {
       background-size: cover;
       background-position: center;
       z-index: 5;
-      transition: all 250ms ease-in-out; }
+      -webkit-transition: all 250ms ease-in-out;
+              transition: all 250ms ease-in-out; }
     .hero .wrapper .overlay {
-      transition: all 250ms ease-in-out;
+      -webkit-transition: all 250ms ease-in-out;
+              transition: all 250ms ease-in-out;
       background-color: rgba(36, 36, 36, 0.4); }
     .hero .wrapper .hero-text {
       position: absolute;
@@ -279,13 +201,15 @@ img {
       bottom: 15%;
       left: 0;
       z-index: 15;
-      transition: all 250ms ease-in-out;
+      -webkit-transition: all 250ms ease-in-out;
+              transition: all 250ms ease-in-out;
       color: #f4f1f1; }
       .hero .wrapper .hero-text .title,
       .hero .wrapper .hero-text .subtitle {
         text-align: center;
         margin: 0 auto;
-        transition: all 250ms ease-in-out; }
+        -webkit-transition: all 250ms ease-in-out;
+                transition: all 250ms ease-in-out; }
       .hero .wrapper .hero-text .subtitle {
         margin-top: 5px;
         line-height: 30px;
@@ -305,7 +229,8 @@ img {
   .project .project-info.margin-top {
     margin-top: 40px; }
   .project .project-info .title {
-    transition: all 250ms ease-in-out; }
+    -webkit-transition: all 250ms ease-in-out;
+            transition: all 250ms ease-in-out; }
 .project .row {
   width: auto;
   margin: 0 auto;
@@ -408,25 +333,27 @@ img {
     margin-top: 3em;
     text-transform: uppercase;
     font-weight: 700; }
-  .cv #white-white-red .current-exhibit {
-    margin: 0 auto;
-    width: 70%;
-    margin-bottom: 4em; }
-  .cv .current-exhibit {
-    margin: 0 5%;
-    margin-top: 3em;
-    margin-bottom: 3.5em; }
-    .cv .current-exhibit .label {
-      font-size: .8em;
-      margin-bottom: -.9em; }
-    .cv .current-exhibit ul li {
-      font-size: 1.1em; }
-      .cv .current-exhibit ul li.ex-title {
-        font-weight: 600;
-        font-size: 1.5em;
-        line-height: 2.2em; }
-      .cv .current-exhibit ul li em {
-        font-style: italic; }
+
+#white-white-red .current-exhibit {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 4em; }
+
+.current-exhibit {
+  margin: 0 5%;
+  margin-top: 3em;
+  margin-bottom: 3.5em; }
+  .current-exhibit .label {
+    font-size: .8em;
+    margin-bottom: -.9em; }
+  .current-exhibit ul li {
+    font-size: 1.1em; }
+    .current-exhibit ul li.ex-title {
+      font-weight: 600;
+      font-size: 1.5em;
+      line-height: 2.2em; }
+    .current-exhibit ul li em {
+      font-style: italic; }
 
 .icon {
   max-width: 20px;
@@ -435,7 +362,8 @@ img {
   cursor: pointer;
   margin-top: 5px;
   opacity: 1;
-  transition: all 250ms ease-in-out; }
+  -webkit-transition: all 250ms ease-in-out;
+          transition: all 250ms ease-in-out; }
   .icon:hover {
     opacity: .7; }
   .icon.left-margin {
@@ -455,6 +383,84 @@ footer table {
   footer table .logo img {
     width: 150px;
     opacity: 1;
-    transition: all 250ms ease-in-out; }
+    -webkit-transition: all 250ms ease-in-out;
+            transition: all 250ms ease-in-out; }
     footer table .logo img:hover {
       opacity: .7; }
+
+.header-text {
+  color: #f4f1f1; }
+
+.header-sub-text {
+  color: #c3c3c3; }
+
+.main-text {
+  color: #4b4b4b; }
+
+.secondary-text {
+  color: rgba(75, 75, 75, 0.7); }
+
+.mate, footer table, .title, .subtitle, .project .project-info .title, .project .project-info .medium, .project .project-info .year {
+  font-family: 'Mate', serif; }
+
+.source-sans, body, .statement p {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+body {
+  font-size: 16px;
+  line-height: 20px; }
+
+.title {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 52px; }
+  .title.small {
+    font-size: 22px;
+    line-height: 24px;
+    margin-left: 5%;
+    margin-top: 6em;
+    max-width: 70%; }
+
+.subtitle {
+  font-size: 26px; }
+
+.project .project-info .title, .project .project-info .medium, .project .project-info .year {
+  color: rgba(75, 75, 75, 0.7); }
+.project .project-info .medium, .project .project-info .year {
+  font-size: 26px;
+  line-height: 28px; }
+
+.statement em {
+  font-style: italic; }
+
+.quote {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-style: italic;
+  text-align: left;
+  font-size: 22px;
+  line-height: 27px; }
+  .quote p {
+    margin-bottom: 20px; }
+  .quote .author {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px; }
+    .quote .author .name {
+      font-style: normal;
+      font-weight: 700; }
+
+.portfolio-link {
+  text-align: right; }
+
+a.black {
+  color: black; }
+  a.black:hover {
+    color: rgba(75, 75, 75, 0.7); }
+
+#about .statement {
+  margin-bottom: 1em; }
+  #about .statement:first-of-type {
+    margin-top: 2em; }

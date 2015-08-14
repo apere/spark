@@ -1,0 +1,26 @@
+extends ../../templates/_project.jade
+block project-id
+	- var projectID = "as-i-am-changing";
+block project-title 
+	= "As I Am, Changing"
+block project-medium
+	= "Video and painting, dimensions variable"
+block project-year
+	= "2012&ndash;2013"
+block project-content
+	.project-info.margin-top
+		.title
+		.medium
+		.year
+	.row.center.top-margin
+		img.lazy.one(data-original='/public/images/as_i_am_changing/04caged.jpg')
+	.statement.lotsa-margin
+		p
+			em As I Am, Changing
+			|  is a series of videos and mixed media collages that explores growth and its process. The longing to change can degenerate into an anxiety-driven obsession, manifested in the body turning against itself. Perception is filtered by obsession, which distorts true understanding of the self and others. Lasting transformation is often caused by indirect forces; a random discovery may outweigh a multitude of deliberate attempts. Some change, like the seasons, can only happen in its own time.
+		.portfolio-link
+			| [ 
+			a(href='/portfolio/as-i-am-changing/') view more
+			|  ]
+	.row.center.bottom-margin
+		img.lazy.one.medium(data-original='/public/images/as_i_am_changing/vidoe.png')

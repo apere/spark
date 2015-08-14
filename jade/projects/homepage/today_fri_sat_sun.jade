@@ -1,0 +1,29 @@
+extends ../../templates/_project.jade	
+block project-id
+	- var projectID = "today-fri-sat-sun";
+block project-title 
+	= "Today-Friday-Saturday-Sunday"
+block project-medium
+	= "liturgical installation, photography, blog"
+block project-year
+	= "2015"
+block project-content
+	.row.center.top-margin
+		img.lazy.one(data-original= "/public/images/today_friday_saturday_sunday/Saturday/saturday-6.jpg")
+	.row.center
+	.statement.losta-margin
+		p How do we encounter the divine within our tangible existence-as we work and worship together? How is the spiritual present in objects that we touch routinely, and how are ordinary objects transformed into symbols bearing divine presence? Today-Friday-Saturday-Sunday is an interdisciplinary art project that investigates my life, and the life of the communities I am a part of...
+		.portfolio-link
+			= "["
+			a(href ="/portfolio/Today-Friday-Saturday-Sunday/") view more
+			= "]"
+	.row.center
+		img.lazy.one(data-original= "/public/images/today_friday_saturday_sunday/Sunday/sunday-3.jpg")
+	.current-exhibit
+		ul
+			li.ex-title ARTVENTURES: A Sacred Look
+			li Travis Auditorium at Fuller Theological Seminary, Pasedena, CA,
+			li <em>May 14th</em> , 6:30&ndash;9:30pm;
+		a(href = "http://www.brehmcenter.com/activities/events/artventures-a-sacred-look") [ brehm center ]
+		a(href = "https://www.facebook.com/events/806787322723934/")
+			img.icon.left-margin(src="/public/images/icon/fb.png")
