@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19051",
 "files": {
 	"\/about\/index.html": {
 		"fileType": 8192,
@@ -4279,6 +4279,179 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/core.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/core.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/pagenavi-css.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/pagenavi-css.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/AdminPage.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/AdminPage.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/BoxesPage.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/BoxesPage.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Cron.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Cron.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Forms.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Forms.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Hooks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Hooks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/load-composer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/load-composer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/load.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/load.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Options.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Options.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/PostMetabox.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/PostMetabox.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Table.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Table.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Util.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Util.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Widget.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/scb\/Widget.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/uninstall.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/uninstall.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/plugins\/wp-pagenavi\/wp-pagenavi.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/plugins\/wp-pagenavi\/wp-pagenavi.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/blog\/wp-content\/themes\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4296,6 +4469,59 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/archive.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/archive.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71254,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/bg.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/default_hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.50795e+06,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/default_hero.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/default_hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24997,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/logo.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/logo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63465,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/logo2.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/assets\/images\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/blog\/wp-content\/themes\/sheri-theme\/assets\/manifest.json": {
 		"fileType": 524288,
@@ -8612,6 +8838,112 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/assets.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/assets.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/assets-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61724,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/bg.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/default_hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.27288e+06,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/default_hero.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/default_hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22735,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/logo.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/logo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61225,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/logo2.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/images\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/jquery-da8d18b5.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/jquery-da8d18b5.js",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/min\/jquery-da8d18b5-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/main-786fbc2f.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/main-786fbc2f.js",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/min\/main-786fbc2f-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/modernizr-45f0e1f4.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/modernizr-45f0e1f4.js",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/scripts\/min\/modernizr-45f0e1f4-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/styles\/editor-style-a261b85d.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/styles\/editor-style-a261b85d.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/dist\/styles\/main-ca8700b9.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/dist\/styles\/main-ca8700b9.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/blog\/wp-content\/themes\/sheri-theme\/functions.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8827,6 +9159,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/templates\/comments.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/blog\/wp-content\/themes\/sheri-theme\/templates\/content-compact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/sheri-theme\/templates\/content-compact.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9280,969 +9621,203 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/404.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/404.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/archive.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/archive.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/author.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/author.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/category.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/category.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/comments.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/comments.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-aside.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-aside.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-audio.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-audio.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-featured-post.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-featured-post.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-gallery.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-gallery.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-image.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-image.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-link.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-link.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-none.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-none.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-quote.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-quote.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content-video.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content-video.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/css\/editor-style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/css\/editor-style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/css\/ie.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/css\/ie.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/featured-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/featured-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/footer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/functions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/functions.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/genericons\/genericons.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/genericons\/genericons.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/image.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/image.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/inc\/back-compat.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/inc\/back-compat.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/inc\/custom-header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/inc\/custom-header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/inc\/customizer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/inc\/customizer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/inc\/featured-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/inc\/featured-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/inc\/template-tags.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/inc\/template-tags.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/inc\/widgets.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/inc\/widgets.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/js\/customizer.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/customizer.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/min\/customizer-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/js\/featured-content-admin.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/featured-content-admin.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/min\/featured-content-admin-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/js\/functions.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/functions.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/min\/functions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/js\/html5.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/html5.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/min\/html5-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/js\/keyboard-image-navigation.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/keyboard-image-navigation.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/min\/keyboard-image-navigation-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/js\/slider.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/slider.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/js\/min\/slider-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/page-templates\/contributors.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/page-templates\/contributors.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/page-templates\/full-width.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/page-templates\/full-width.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/rtl.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/rtl.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/screenshot.png": {
+	"\/blog\/wp-content\/uploads\/2015\/07\/gma-150x150.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 617254,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/screenshot.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/screenshot.png",
+		"initialSize": 21545,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/gma-150x150.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/gma-150x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/search.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/search.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/sidebar-content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/sidebar-content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/sidebar-footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/sidebar-footer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/sidebar.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/sidebar.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/single.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/single.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/tag.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/tag.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentyfourteen\/taxonomy-post_format.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentyfourteen\/taxonomy-post_format.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/404.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/404.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/archive.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/archive.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/author-bio.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/author-bio.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/author.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/author.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/category.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/category.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/comments.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/comments.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-aside.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-aside.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-audio.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-audio.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-chat.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-chat.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-gallery.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-gallery.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-image.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-image.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-link.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-link.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-none.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-none.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-quote.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-quote.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-status.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-status.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content-video.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content-video.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/content.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/css\/editor-style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/css\/editor-style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/css\/ie.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/css\/ie.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/footer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/functions.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/functions.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/genericons\/genericons.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/genericons\/genericons.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/image.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/image.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-2x.png": {
+	"\/blog\/wp-content\/uploads\/2015\/07\/gma-269x300.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-2x.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-2x.png",
+		"initialSize": 62316,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/gma-269x300.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/gma-269x300.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-light-2x.png": {
+	"\/blog\/wp-content\/uploads\/2015\/07\/gma.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 85,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-light-2x.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-light-2x.png",
+		"initialSize": 304730,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/gma.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/gma.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-light.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-150x150.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 80,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-light.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line-light.png",
+		"initialSize": 7107,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-150x150.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-150x150.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-207x300.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 80,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/dotted-line.png",
+		"initialSize": 14400,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-207x300.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-207x300.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/circle-thumbnail.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-708x1024.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8001,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/circle-thumbnail.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/circle-thumbnail.png",
+		"initialSize": 120408,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-708x1024.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274-708x1024.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/circle.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 33848,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/circle.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/circle.png",
+		"initialSize": 1.46046e+06,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/grove_beth_adam_img_4274.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/diamond-thumbnail.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-1024x683.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1847,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/diamond-thumbnail.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/diamond-thumbnail.png",
+		"initialSize": 76523,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-1024x683.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-1024x683.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/diamond.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-150x150.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 14266,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/diamond.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/diamond.png",
+		"initialSize": 7235,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-150x150.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-150x150.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/star-thumbnail.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-300x200.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4039,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/star-thumbnail.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/star-thumbnail.png",
+		"initialSize": 13190,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-300x200.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT-300x200.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/star.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/REORIENT.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22620,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/star.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/headers\/star.png",
+		"initialSize": 86074,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/REORIENT.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/search-icon-2x.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/sheri-150x150.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 829,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/search-icon-2x.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/search-icon-2x.png",
+		"initialSize": 9288,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/sheri-150x150.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/sheri-150x150.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/images\/search-icon.png": {
-		"fileType": 32768,
+	"\/blog\/wp-content\/uploads\/2015\/07\/sheri-300x142.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 422,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/search-icon.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/images\/search-icon.png",
+		"initialSize": 15299,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/sheri-300x142.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/sheri-300x142.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/inc\/back-compat.php": {
-		"fileType": 8192,
+	"\/blog\/wp-content\/uploads\/2015\/07\/sheri.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/inc\/back-compat.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/inc\/custom-header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/inc\/custom-header.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/js\/functions.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/js\/functions.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/js\/min\/functions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/js\/html5.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/js\/html5.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/js\/min\/html5-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/js\/theme-customizer.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/js\/theme-customizer.js",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/js\/min\/theme-customizer-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/rtl.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/rtl.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/screenshot.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77773,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/screenshot.png",
-		"outputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/screenshot.png",
+		"initialSize": 234859,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/sheri.jpg",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/sheri.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/search.php": {
-		"fileType": 8192,
+	"\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-1024x576.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/search.php",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 901395,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-1024x576.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-1024x576.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/sidebar-main.php": {
-		"fileType": 8192,
+	"\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-150x150.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/sidebar-main.php",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 41374,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-150x150.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-150x150.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/sidebar.php": {
-		"fileType": 8192,
+	"\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-300x169.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/sidebar.php",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 89500,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-300x169.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2-300x169.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/single.php": {
-		"fileType": 8192,
+	"\/blog\/wp-content\/uploads\/2015\/07\/the_americans2.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/single.php",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 3.0165e+06,
+		"inputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2.png",
+		"outputAbbreviatedPath": "\/blog\/wp-content\/uploads\/2015\/07\/the_americans2.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/tag.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/tag.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/blog\/wp-content\/themes\/twentythirteen\/taxonomy-post_format.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/blog\/wp-content\/themes\/twentythirteen\/taxonomy-post_format.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/blog\/wp-cron.php": {
 		"fileType": 8192,
@@ -15562,13 +15137,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/REORIENT.jpg": {
+	"\/public\/images\/reorient.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 86074,
-		"inputAbbreviatedPath": "\/public\/images\/REORIENT.jpg",
-		"outputAbbreviatedPath": "\/public\/images\/REORIENT.jpg",
+		"inputAbbreviatedPath": "\/public\/images\/reorient.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/reorient.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16949,10 +16524,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -16961,15 +16532,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -16977,75 +16540,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},

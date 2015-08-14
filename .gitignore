@@ -17,3 +17,5 @@
 
 /blog/wp-content/themes/sheri-theme/bower_components
 /blog/wp-content/themes/sheri-theme/node_modules
+
+*.codekit
