@@ -94,14 +94,14 @@ img {
   background: url("../../public/images/bg3ab.png");
   background-repeat: repeat;
   padding: 25px 0px 60px 0px;
-  margin-top: 95vh; }
+  margin-top: 90vh; }
 
 .main-container {
   margin: 0 auto;
   width: calc(100% - 100px - 100px);
   max-width: 1200px;
   min-height: 100vh;
-  background-color: rgba(255, 255, 255, 0.85); }
+  background-color: rgba(255, 255, 255, 0.75); }
 
 .logo-nav {
   position: inherit;
@@ -165,7 +165,7 @@ img {
   .hero .wrapper {
     position: relative;
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     background-color: rgba(36, 36, 36, 0.4); }
     .hero .wrapper:hover .hero-text {
       -webkit-transform: scale(1.04, 1.04);
@@ -177,7 +177,7 @@ img {
     .hero .wrapper .overlay {
       position: absolute;
       width: 100%;
-      height: 95vh;
+      height: 90vh;
       top: 0px;
       left: 0;
       z-index: 10; }
