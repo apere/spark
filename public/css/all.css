@@ -122,37 +122,36 @@ img {
         opacity: .7; }
 
 #genesis-dreamtime-hero .wrapper .hero-image {
-  background: url('/public/images/genesis_and_dreamtime/03_touch_in_the_image.JPG?1430957353'); }
+  background-image: url('/public/images/genesis_and_dreamtime/03_touch_in_the_image.JPG?1430957353'); }
 
 #archive-hero .wrapper .hero-image {
-  background: url('/public/images/still_hanoi_move/02park_landscapeVn2011_extra3.JPG?1430957353'); }
+  background-image: url('/public/images/still_hanoi_move/02park_landscapeVn2011_extra3.JPG?1430957353'); }
 
 #stack-through-hero .wrapper .hero-image {
-  background: url('/public/images/stack_through/03_patterns_of_problem.jpg?1430964924'); }
+  background-image: url('/public/images/stack_through/03_patterns_of_problem.jpg?1430964924'); }
 
 #still-hanoi-hero .wrapper .hero-image {
-  background: url('/public/images/still_hanoi_move/08park_xtragood4.JPG?1430957353'); }
+  background-image: url('/public/images/still_hanoi_move/08park_xtragood4.JPG?1430957353'); }
 
 #as-i-am-changing-hero .wrapper .hero-image {
-  background: url('/public/images/as_i_am_changing/04caged.jpg?1430964923');
-  background-size: 110%;
-  background-position: center; }
+  background-image: url('/public/images/as_i_am_changing/04caged.jpg?1430964923');
+  background-size: 110%; }
 
 #index-hero .wrapper .hero-image {
-  background: url('/public/images/REORIENT.jpg?1436487893');
+  background-image: url('/public/images/REORIENT.jpg?1436487893');
   background-position-y: center; }
 
 #white-white-red-hero .wrapper .hero-image {
-  background: url('/public/images/white_white_red/home_grown/pop-2.jpeg?1430964927'); }
+  background-image: url('/public/images/white_white_red/home_grown/pop-2.jpeg?1430964927'); }
 
 #portfolio-hero .wrapper .hero-image {
-  background: url('/public/images/white_white_red/flight/beginning.jpg?1430964924'); }
+  background-image: url('/public/images/white_white_red/flight/beginning.jpg?1430964924'); }
 
 #about-hero .wrapper .hero-image {
-  background: url('/public/images/gen/sheri.jpg?1430957353'); }
+  background-image: url('/public/images/gen/sheri.jpg?1430957353'); }
 
 #today-fri-sat-sun-hero .wrapper .hero-image {
-  background: url('/public/images/today_friday_saturday_sunday/Sunday/sunday-2.jpg?1431480814');
+  background-image: url('/public/images/today_friday_saturday_sunday/Sunday/sunday-2.jpg?1431480814');
   background-position-y: center; }
 
 .hero {
@@ -176,22 +175,21 @@ img {
     .hero .wrapper .hero-image,
     .hero .wrapper .overlay {
       position: absolute;
-      width: 100%;
+      width: 100vw;
       height: 90vh;
       top: 0px;
       left: 0;
       z-index: 10; }
     .hero .wrapper .hero-image {
-      background-size: cover;
-      background-position: center;
+      background-size: cover !important;
+      background-position-x: 50% !important;
       z-index: 5; }
     .hero .wrapper .overlay {
       background-color: rgba(36, 36, 36, 0.4); }
     .hero .wrapper .hero-text {
       z-index: 15;
       position: absolute;
-      width: 100%;
-      min-width: 600px;
+      width: 100vw;
       bottom: 15%;
       left: 0; }
       .hero .wrapper .hero-text .title,

@@ -52,46 +52,45 @@ img {
 // * Header - Custom Images
 // *****
 #genesis-dreamtime-hero .wrapper .hero-image {
-	background: image-url('genesis_and_dreamtime/03_touch_in_the_image.JPG');
+	background-image: image-url('genesis_and_dreamtime/03_touch_in_the_image.JPG');
 }
 
 #archive-hero .wrapper .hero-image {
-	background: image-url('still_hanoi_move/02park_landscapeVn2011_extra3.JPG');
+	background-image: image-url('still_hanoi_move/02park_landscapeVn2011_extra3.JPG');
 }
 
 #stack-through-hero .wrapper .hero-image {
-	background: image-url('stack_through/03_patterns_of_problem.jpg');
+	background-image: image-url('stack_through/03_patterns_of_problem.jpg');
 }
 
 #still-hanoi-hero .wrapper .hero-image {
-	background: image-url('still_hanoi_move/08park_xtragood4.JPG');
+	background-image: image-url('still_hanoi_move/08park_xtragood4.JPG');
 }
 
 #as-i-am-changing-hero .wrapper .hero-image {
-	background: image-url('as_i_am_changing/04caged.jpg');
+	background-image: image-url('as_i_am_changing/04caged.jpg');
 	background-size: 110%;
-	background-position: center;
 }
 
 #index-hero .wrapper .hero-image {
-	background: image-url('REORIENT.jpg');
+	background-image: image-url('REORIENT.jpg');
 	background-position-y: center;
 }
 
 #white-white-red-hero .wrapper .hero-image {
-	background: image-url('white_white_red/home_grown/pop-2.jpeg');
+	background-image: image-url('white_white_red/home_grown/pop-2.jpeg');
 }
 
 #portfolio-hero .wrapper .hero-image {
-	background: image-url('white_white_red/flight/beginning.jpg');
+	background-image: image-url('white_white_red/flight/beginning.jpg');
 }
 
 #about-hero .wrapper .hero-image {
-	background: image-url('gen/sheri.jpg');
+	background-image: image-url('gen/sheri.jpg');
 }
 
 #today-fri-sat-sun-hero .wrapper .hero-image {
-	background: image-url('today_friday_saturday_sunday/Sunday/sunday-2.jpg');
+	background-image: image-url('today_friday_saturday_sunday/Sunday/sunday-2.jpg');
 	background-position-y: center;
 }
 
@@ -121,16 +120,17 @@ img {
 		.hero-image,
 		.overlay {
 			position: absolute;
-			width: 100%;
+			width: 100vw;
 			height: $hero-height;
 			top: 0px;
 			left: 0;
 			z-index: 10;
       @extend %transitions;
+      
 		}
 		.hero-image {
-			background-size: cover;
-			background-position: center;
+			background-size: cover !important;
+			background-position-x: 50% !important;
 			z-index: 5;
 		}
 		.overlay {
@@ -139,8 +139,7 @@ img {
 		.hero-text {
       z-index: 15;
 			position: absolute;
-			width: 100%;
-			min-width: 600px;
+			width: 100vw;
 			bottom: 15%;
 			left: 0;
 			.title,
