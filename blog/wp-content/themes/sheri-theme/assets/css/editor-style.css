@@ -6088,6 +6088,10 @@ html, html a {
   -webkit-text-stroke: 1px transparent;
   font-smooth: always; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 a {
   color: #4b4b4b;
   text-decoration: none;
