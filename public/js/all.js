@@ -33,7 +33,7 @@ $( document ).ready(function() {
 	});
   
     $('#index-hero').on('click', function() {
-        window.location.href = 'https://www.indiegogo.com/projects/reorient-home-is-where#/story';
+        window.location.href = 'https://www.facebook.com/events/1689449408001513/';
     });
 });
 

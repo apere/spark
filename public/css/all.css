@@ -83,7 +83,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 img, .hero .wrapper .hero-image,
 .hero .wrapper .overlay, .icon, a, .hero .wrapper .hero-text, .title, .subtitle {
   -webkit-transition: all 250ms ease-in-out;
-          transition: all 250ms ease-in-out; }
+  transition: all 250ms ease-in-out; }
 
 img {
   max-width: 100%;
@@ -138,7 +138,7 @@ img {
   background-size: 110%; }
 
 #index-hero .wrapper .hero-image {
-  background-image: url('/public/images/REORIENT.jpg?1436487893');
+  background-image: url('/public/images/wear_tear-hero.jpg?1453308227');
   background-position-y: center; }
 
 #white-white-red-hero .wrapper .hero-image {
@@ -437,7 +437,8 @@ a {
   .current-exhibit ul li.ex-title {
     font-weight: 600;
     font-size: 1.5em;
-    line-height: 2.2em; }
+    line-height: 1.8em;
+    margin-bottom: -.25em; }
   .current-exhibit ul li em {
     font-style: italic; }
 
