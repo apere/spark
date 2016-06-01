@@ -1141,6 +1141,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/public\/images\/wear_and_tear\/wear_and_tear_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.15556e+06,
+		"inputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_01.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/wear_and_tear\/wear_and_tear_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.39082e+06,
+		"inputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_02.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/wear_and_tear\/wear_and_tear_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.32728e+06,
+		"inputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_03.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/wear_and_tear\/wear_and_tear_04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.1468e+06,
+		"inputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_04.jpg",
+		"outputAbbreviatedPath": "\/public\/images\/wear_and_tear\/wear_and_tear_04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/wear_tear-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

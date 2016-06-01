@@ -138,8 +138,8 @@ img {
   background-size: 110%; }
 
 #index-hero .wrapper .hero-image {
-  background-image: url('/public/images/wear_tear-hero.jpg?1453308227');
-  background-position-y: center; }
+  background-image: url('/public/images/wear_and_tear/wear_and_tear_02.jpg?1464760278');
+  background-position-y: 70%; }
 
 #white-white-red-hero .wrapper .hero-image {
   background-image: url('/public/images/white_white_red/home_grown/pop-2.jpeg?1430964927'); }
@@ -168,7 +168,6 @@ img {
     background-color: rgba(36, 36, 36, 0.4); }
     .hero .wrapper:hover .hero-text {
       -webkit-transform: scale(1.04, 1.04);
-          -ms-transform: scale(1.04, 1.04);
               transform: scale(1.04, 1.04); }
     .hero .wrapper:hover .overlay {
       background-color: rgba(36, 36, 36, 0.6); }
