@@ -73,7 +73,7 @@ img {
 }
 
 #index-hero .wrapper .hero-image {
-	background-image: image-url('wear_and_tear/wear_and_tear_02.jpg');
+	background-image: image-url('rest_still_samepose.jpg');
 	background-position-y: 70%;
 }
 
@@ -163,6 +163,12 @@ img {
 	&.top-margin {
 		margin-top: $project-margin;
 	}
+	
+	.current-exhibit {
+		margin-left: 0;
+		margin-top: -2em;
+	}
+	
 	.project-info {
 		margin-bottom: $project-margin;
 		cursor: pointer;

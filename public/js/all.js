@@ -33,7 +33,7 @@ $( document ).ready(function() {
 	});
   
     $('#index-hero').on('click', function() {
-        window.location.href = 'https://www.youtube.com/watch?v=WZRoG7aayho';
+        window.location.href = 'http://www.sheripark.com/portfolio/as-i-am-changing/';
     });
 });
 
